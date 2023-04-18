@@ -1,3 +1,3 @@
 # IMDB Project
 <br>
-Data Structure Project 3
+COP 3050 Data Structures And Algorithms Project 3
