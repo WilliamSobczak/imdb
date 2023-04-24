@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <chrono>
+
 using namespace std;
 
 class Movie {
@@ -94,8 +96,30 @@ void mergeSort(vector<Movie>& movies, int l, int r, bool ascending) {
     }
 }
 
+int partition(vector<Movie>& movies, int low, int high, bool ascending) {
+    float pivot = movies[high].averageRating;
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if ((ascending && movies[j].averageRating <= pivot) || (!ascending && movies[j].averageRating >= pivot)) {
+            i++;
+            swap(movies[i], movies[j]);
+        }
+    }
+    swap(movies[i + 1], movies[high]);
+    return i + 1;
+}
+
+void quickSort(vector<Movie>& movies, int low, int high, bool ascending) {
+    if (low < high) {
+        int pivot = partition(movies, low, high, ascending);
+        quickSort(movies, low, pivot - 1, ascending);
+        quickSort(movies, pivot + 1, high, ascending);
+    }
+}
+
 int main() {
     vector<Movie> movies;
+    long totalRuntime = 0;
     ifstream file("Text.txt");
     string line;
     getline(file, line); // skip first line (header)
@@ -126,8 +150,16 @@ int main() {
     }
     file.close();
 
-    mergeSort(movies, 0, movies.size() - 1, true); 
+    // start time
+    auto start_time = chrono::high_resolution_clock::now();
+
     // sort movies by ascending averageRating
+    mergeSort(movies, 0, movies.size() - 1, true); 
+    auto end_time = chrono::high_resolution_clock::now();
+
+    // calculate duration
+    auto duration = chrono::duration_cast<chrono::microseconds>(end_time - start_time);
+
     // print movies
     for (unsigned int i = 0; i < movies.size(); i++) {
         cout << "Movie " << i + 1 << ":" << endl;
@@ -143,5 +175,6 @@ int main() {
         cout << "genre3: " << movies[i].genre3 << endl;
         cout << endl;
     }
+    cout << "Time taken by merge sort: " << duration.count() << " microseconds." << endl;
     return 0;
 }
