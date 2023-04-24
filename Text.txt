@@ -1,0 +1,1318 @@
+tconst	titleType	primaryTitle	averageRating	numVotes	startYear	runtimeMinutes	genre1	genre2	genre3
+tt0000005	short	Blacksmith Scene	6.2	2596	1893	1	Comedy	Short	NA
+tt0000010	short	Leaving the Factory	6.9	7079	1895	1	Documentary	Short	NA
+tt0000012	short	The Arrival of a Train	7.4	12128	1896	1	Documentary	Short	NA
+tt0000013	short	The Photographical Congress Arrives in Lyon	5.7	1869	1895	1	Documentary	Short	NA
+tt0000016	short	Boat Leaving the Port	5.9	1490	1895	1	Documentary	Short	NA
+tt0000023	short	The Sea	5.7	1424	1895	1	Documentary	Short	NA
+tt0000027	short	Cordeliers' Square in Lyon	5.6	1145	1895	1	Documentary	Short	NA
+tt0000028	short	Fishing for Goldfish	5.1	1071	1895	1	Documentary	Short	NA
+tt0000029	short	Baby's Meal	5.9	3330	1895	1	Documentary	Short	NA
+tt0000031	short	Jumping the Blanket	5.5	999	1895	1	Documentary	Short	NA
+tt0000033	short	Horse Trick Riders	5.5	1026	1895	1	Comedy	Documentary	Short
+tt0000034	short	Arrivée d'un train gare de Vincennes	5	204	1896	1	Documentary	Short	NA
+tt0000035	short	Watering the Flowers	5.6	82	1896	1	Comedy	Short	NA
+tt0000070	short	Demolition of a Wall	6.4	2631	1896	1	Documentary	Short	NA
+tt0000089	short	Leaving Jerusalem by Railway	6.2	995	1897	1	Documentary	Short	NA
+tt0000091	short	The House of the Devil	6.7	3626	1896	3	Horror	Short	NA
+tt0000117	short	Saída do Pessoal Operário da Fábrica Confiança	5.1	164	1896	1	Documentary	Short	NA
+tt0000131	short	A Terrible Night	5.8	1401	1896	1	Comedy	Horror	Short
+tt0000132	short	Card Party	5.1	1060	1896	1	Biography	Short	NA
+tt0000140	short	Baignade dans le torrent	4.9	297	1897	1	Short	NA	NA
+tt0000143	short	Les cambrioleurs	4.9	262	1897	1	Comedy	Short	NA
+tt0000144	short	Chez le magnétiseur	5.1	314	1897	1	Comedy	Short	NA
+tt0000156	short	A Badly Managed Hotel	3.4	24	1896	NA	Comedy	Short	NA
+tt0000159	short	The Devil's Laboratory	5.2	127	1897	1	Horror	Short	NA
+tt0000162	short	Niagara Falls	5.4	472	1897	1	Documentary	Short	NA
+tt0000164	short	Le pêcheur dans le torrent	5	297	1897	1	Comedy	Short	NA
+tt0000174	short	Výstavní párkar a lepic plakátù	4.6	129	1898	1	Comedy	Short	NA
+tt0000211	short	The Astronomer's Dream; or, the Man in the Moon	7.4	4333	1898	3	Comedy	Fantasy	Horror
+tt0000213	short	Scène d'escamotage	4.6	237	1898	1	Short	NA	NA
+tt0000222	short	Au cabaret	4.6	237	1899	1	Comedy	Short	NA
+tt0000228	short	La bonne absinthe	4.9	277	1899	1	Short	NA	NA
+tt0000231	short	Portuguese Railway Train	2.6	19	1896	1	Documentary	Short	NA
+tt0000235	short	Haggard's She: The Pillar of Fire	6.3	866	1899	1	Adventure	Fantasy	Horror
+tt0000269	short	Army Life; or, How Soldiers Are Made: Mounted Infantry	4.8	134	1900	NA	Documentary	Short	NA
+tt0000274	short	Avenue de l'opéra	5.6	254	1900	1	Comedy	Short	NA
+tt0000286	short	Chirurgie fin de siècle	5.7	255	1900	2	Comedy	Short	NA
+tt0000299	short	Le départ d'Arlequin et de Pierrette	5.6	263	1900	2	Short	NA	NA
+tt0000302	short	La fée aux choux, ou la naissance des enfants	5.2	225	1900	1	Short	NA	NA
+tt0000319	short	Maple Leaf Viewing	5.8	224	1899	6	Horror	Short	NA
+tt0000359	short	The India Rubber Head	7.1	2964	1901	3	Comedy	Fantasy	Short
+tt0000373	short	The Devil's Seven Castles	6.4	88	1902	11	Drama	Horror	Short
+tt0000409	short	Midwife to the Upper Classes	5.1	238	1902	4	Comedy	Short	NA
+tt0000417	short	A Trip to the Moon	8.2	51682	1902	13	Action	Adventure	Comedy
+tt0000432	short	How Monsieur Takes His Bath	5.7	233	1903	1	Comedy	Short	NA
+tt0000439	short	The Great Train Robbery	7.3	19810	1903	11	Action	Adventure	Crime
+tt0000456	short	N.Y. Fire Department Returning	4	63	1903	NA	Documentary	Short	NA
+tt0000465	short	The Kingdom of the Fairies	7.3	1641	1903	16	Adventure	Fantasy	Short
+tt0000495	short	The Pearl Fisher	6	112	1907	12	Fantasy	Short	NA
+tt0000499	short	The Impossible Voyage	7.5	3705	1904	24	Action	Adventure	Family
+tt0000515	short	Los guapos del parque	4.8	95	1904	6	Comedy	Short	NA
+tt0000525	short	Hanging at Jefferson City	5.4	52	1910	7	Short	Western	NA
+tt0000543	short	Kong Christian d. IXs Bisættelse	4.8	17	1906	15	Documentary	Short	NA
+tt0000574	movie	The Story of the Kelly Gang	6	818	1906	70	Action	Adventure	Biography
+tt0000614	short	The Red Spectre	6.5	1107	1907	9	Fantasy	Horror	Short
+tt0000618	short	Salaviinanpolttajat	8.5	15	1907	20	Comedy	Short	NA
+tt0000658	short	The Puppet's Nightmare	6.5	245	1908	2	Animation	Short	NA
+tt0000666	short	Corrida de toros con Antonio Fuentes	5.4	32	1908	25	Documentary	Short	Sport
+tt0000682	short	A Fantasy	6.9	2596	1908	2	Animation	Comedy	Family
+tt0000844	short	The Death of Ivan the Terrible	6.6	20	1909	NA	Drama	History	Short
+tt0000873	short	Bakchisarayskiy fontan	5.8	11	1909	NA	Drama	Short	NA
+tt0000941	movie	Locura de amor	4.5	24	1909	45	Drama	NA	NA
+tt0000969	short	Les Misérables	6.4	25	1909	44	Drama	History	Short
+tt0000987	short	How Brother Cook was Taught a Lesson	7.8	9	1910	15	Comedy	Short	NA
+tt0001117	short	Cleopatra	5.4	15	1910	NA	Drama	History	Romance
+tt0001122	movie	The Red Inn	5.4	20	1910	NA	NA	NA	NA
+tt0001175	movie	Camille	5.2	42	1912	NA	Drama	Romance	NA
+tt0001218	short	A Fallen Spirit	5.2	111	1910	6	Animation	Fantasy	Horror
+tt0001258	short	The White Slave Trade	5.8	152	1910	33	Drama	Short	NA
+tt0001280	short	Copenhagen by Night	4.9	32	1910	25	Short	NA	NA
+tt0001338	movie	A Night in May	5.2	17	1910	NA	Drama	NA	NA
+tt0001381	short	A Recruit from 64	5.7	39	1910	35	Drama	Short	War
+tt0001440	movie	Valdemar Sejr	4.7	21	1910	NA	Drama	History	NA
+tt0001488	short	The Hallucinations of Baron Munchausen	6.2	500	1911	11	Fantasy	Short	NA
+tt0001527	short	The Cameraman's Revenge	7.7	2995	1912	12	Animation	Comedy	Fantasy
+tt0001614	movie	The Four Devils	6.2	33	1911	60	Drama	NA	NA
+tt0001680	short	His Trust: The Faithful Devotion and Self-Sacrifice of an Old Negro Servant	5.1	628	1911	14	Drama	Short	War
+tt0001790	movie	Les Misérables, Part 1: Jean Valjean	6.2	51	1913	60	Drama	NA	NA
+tt0001799	short	Moses Saved from the Waters	4.9	14	1911	NA	Drama	Short	NA
+tt0001967	short	Life as It Is	5.9	11	1911	NA	Drama	Short	NA
+tt0002020	short	Queen Elizabeth	4.5	136	1912	44	Biography	Drama	History
+tt0002026	movie	Anny - Story of a Prostitute	4.5	14	1912	68	Drama	Romance	NA
+tt0002113	short	The Conquest of the Pole	6.8	1070	1912	33	Adventure	Horror	Sci-Fi
+tt0002136	short	Departure of a Grand Old Man	5.6	92	1912	31	Drama	Short	NA
+tt0002144	short	La dramatique passion d'Algabert et d'Élisabeth de Rodembourg	5.1	17	1912	17	Drama	Short	NA
+tt0002151	short	The Last Performance	5	31	1912	23	Drama	Short	NA
+tt0002181	short	The Man with Wax Faces	6.1	209	1914	11	Horror	Short	NA
+tt0002206	short	Le secret de l'acier	5.5	21	1912	20	Short	NA	NA
+tt0002221	short	The Dragonfly and the Ant	6.7	456	1913	5	Animation	Fantasy	Short
+tt0002226	short	Happy Scenes from Animal Life	5.7	63	1912	2	Animation	Short	NA
+tt0002329	short	Today and Tomorrow	5.1	33	1912	41	Short	NA	NA
+tt0002449	short	The Railway of Death	6.4	63	1912	17	Short	Western	NA
+tt0002452	movie	The Independence of Romania	6.4	251	1912	120	History	War	NA
+tt0002461	movie	The Life and Death of King Richard III	5.7	294	1912	55	Drama	NA	NA
+tt0002477	short	Specter of the Sea	6.5	13	1912	40	Drama	Horror	Short
+tt0002544	short	The Gardener	5.8	223	1912	24	Drama	Short	NA
+tt0002555	movie	The Last Bohemian	4.6	44	1913	NA	Drama	Romance	NA
+tt0002588	movie	Zigomar contre Nick Carter	5.9	43	1912	48	Crime	Thriller	NA
+tt0002642	movie	The Heir to Skjoldborg	5.6	9	1914	50	Drama	NA	NA
+tt0002656	short	Balaoo the Demon Baboon	5.5	46	1913	24	Horror	Short	NA
+tt0002801	movie	The Black Diamond	5.6	24	1913	50	NA	NA	NA
+tt0002844	movie	Fantômas: In the Shadow of the Guillotine	6.9	2361	1913	54	Crime	Drama	NA
+tt0002863	short	The Film Primadonna	6.5	55	1913	17	Drama	Short	NA
+tt0002917	movie	Brother Against Brother	5.6	43	1913	51	Drama	NA	NA
+tt0002973	movie	Dr. Mawson in the Antarctic	5.8	21	1913	68	Documentary	NA	NA
+tt0002983	short	A House Divided	6	523	1913	13	Comedy	Family	Short
+tt0002996	movie	My Husband's Getting Married	3.7	30	1913	NA	Comedy	NA	NA
+tt0002999	short	The Ideal Wife	5.4	30	1913	24	Comedy	Short	NA
+tt0003015	movie	Die Insel der Seligen	4.7	65	1913	49	Comedy	Fantasy	NA
+tt0003037	movie	Fantomas: The Man in Black	6.9	1602	1913	61	Crime	Drama	NA
+tt0003044	short	Kri Kri e il tango	5.5	18	1913	4	Short	NA	NA
+tt0003131	movie	War Is Hell	6.7	167	1914	50	Drama	War	NA
+tt0003159	movie	Les Misérables, Part 2: Fantine	6.1	52	1913	300	Drama	NA	NA
+tt0003214	short	Christmas Eve	6.2	295	1913	41	Comedy	Fantasy	Short
+tt0003309	movie	Captive Souls	4.7	31	1914	99	NA	NA	NA
+tt0003311	short	Raja Harishchandra	5.9	411	1913	40	History	Short	NA
+tt0003345	short	S1	6.2	20	1913	40	Crime	Drama	Short
+tt0003419	movie	The Student of Prague	6.4	2211	1913	85	Drama	Fantasy	Horror
+tt0003441	movie	The Terrible Vengeance	6	18	1913	NA	NA	NA	NA
+tt0003442	movie	Tess of the D'Urbervilles	5.8	26	1913	NA	Drama	Romance	NA
+tt0003512	short	The Voyage of the Bourrichon Family	5	171	1913	15	Comedy	Short	NA
+tt0003540	short	When the Earth Trembled	5.5	45	1913	19	Short	NA	NA
+tt0003630	movie	Golddigger	4.6	28	1914	NA	Western	NA	NA
+tt0003665	movie	The Battle of the Sexes	6.2	100	1914	50	Drama	NA	NA
+tt0003740	movie	Cabiria	7.1	3701	1914	148	Adventure	Drama	History
+tt0003819	short	Dance of the Vampire	7.6	20	1914	NA	Short	NA	NA
+tt0003839	short	Child of the Big City	6.5	376	1914	37	Drama	Short	NA
+tt0003930	movie	Fantomas: The Mysterious Finger Print	6.8	1363	1914	59	Crime	Drama	NA
+tt0003934	short	The Fatal Mallet	5.4	1015	1914	18	Comedy	Short	NA
+tt0003996	short	Miss Soapsuds	6.3	19	1914	10	Short	NA	NA
+tt0004066	movie	Sealed Orders	6.8	640	1914	84	Drama	Mystery	NA
+tt0004100	short	His Musical Career	5.9	1074	1914	16	Comedy	Short	NA
+tt0004121	movie	The Hound of the Baskervilles (1914)	5.6	124	1914	65	Crime	Horror	Mystery
+tt0004150	movie	In the Land of the Head Hunters	5.9	510	1914	65	Drama	History	NA
+tt0004181	movie	Judith of Bethulia	6.3	1393	1914	61	Drama	NA	NA
+tt0004199	movie	The Borrowed Babies	4.1	26	1915	NA	Comedy	NA	NA
+tt0004325	movie	The Merchant of Venice	5.4	34	1914	NA	Drama	NA	NA
+tt0004693	short	Those Love Pangs	5.4	1099	1914	16	Comedy	Short	NA
+tt0004712	movie	The Undesirable	6.2	222	1915	67	Drama	NA	NA
+tt0004743	movie	Uncle Tom's Cabin	5.6	174	1914	54	Drama	NA	NA
+tt0004847	movie	Prisoner of the Night	4.2	27	1914	45	NA	NA	NA
+tt0004869	movie	One Who Is Loved by Two	4.2	27	1915	NA	NA	NA	NA
+tt0004873	movie	Alice in Wonderland	6.1	543	1915	52	Adventure	Family	Fantasy
+tt0004924	movie	A Trip on the Ice	5.7	11	1915	NA	NA	NA	NA
+tt0004972	movie	The Birth of a Nation	6.2	25281	1915	195	Drama	War	NA
+tt0004979	movie	Blind Man's Bluff	5	13	1915	NA	Comedy	NA	NA
+tt0005059	movie	The Captive	6.5	134	1915	50	Drama	Romance	War
+tt0005339	movie	A Fool There Was	5.7	971	1915	67	Drama	NA	NA
+tt0005809	movie	The Governor	6.7	324	1915	50	Drama	NA	NA
+tt0005915	short	The Picture of Dorian Grey	6.5	59	1915	22	Drama	Fantasy	Horror
+tt0005916	movie	After Death	6.8	941	1915	46	Drama	Horror	NA
+tt0005994	movie	Ruslan and Ludmilla	8.4	14	1915	NA	NA	NA	NA
+tt0006041	movie	Camille	5.6	16	1915	NA	Drama	NA	NA
+tt0006182	movie	Trilby	6	117	1915	59	Drama	NA	NA
+tt0006238	movie	Zhenshchina vampir	7.6	38	1915	NA	Horror	NA	NA
+tt0006331	short	Sugar and Spice	6.6	12	1915	NA	Comedy	Short	NA
+tt0006333	movie	20,000 Leagues Under the Sea	6.1	1871	1916	85	Action	Adventure	Sci-Fi
+tt0006349	short	Where is My Treasure?	5.9	347	1916	35	Comedy	Short	NA
+tt0006375	movie	The Aryan	6.3	53	1916	50	Western	NA	NA
+tt0006386	movie	The Avenger	6.5	42	1915	49	Drama	NA	NA
+tt0006399	short	The Bandit's Wager	5.5	85	1916	15	Short	Western	NA
+tt0006600	movie	Mr. Doctor	3.8	25	1916	NA	NA	NA	NA
+tt0006623	movie	Az egymillió fontos bankó	5.2	9	1917	NA	Comedy	NA	NA
+tt0006645	short	The Medic	4.7	20	1916	NA	Drama	Short	NA
+tt0006666	movie	The Wolf	5.7	38	1917	NA	NA	NA	NA
+tt0006673	movie	The Black Rainbow	3.7	24	1917	NA	Drama	NA	NA
+tt0006707	movie	The Tenor, Inc.	5.7	12	1916	NA	Comedy	NA	NA
+tt0006714	movie	The Mixed Ladies Chorus	5.3	13	1916	NA	Comedy	NA	NA
+tt0006715	movie	Genie tegen geweld	6.2	7	1916	70	Crime	Drama	Mystery
+tt0006819	movie	Hoffmanns Erzählungen	6.1	57	1916	67	Fantasy	NA	NA
+tt0006864	movie	Intolerance	7.7	15955	1916	163	Drama	History	NA
+tt0006886	movie	Judex	7.2	1065	1916	300	Adventure	Crime	NA
+tt0006893	movie	The Karthauzer	4.4	27	1916	NA	Drama	NA	NA
+tt0007005	movie	The Strength of the Fatherland	4.8	24	1917	NA	Drama	War	NA
+tt0007012	movie	Seven of Spades	4.5	27	1916	NA	NA	NA	NA
+tt0007111	movie	A Night of Horror	6.3	22	1917	56	Drama	Horror	NA
+tt0007183	movie	The Queen of Spades	6.7	774	1916	63	Drama	Fantasy	Horror
+tt0007309	movie	Shoe Palace Pinkus	5.6	256	1916	45	Comedy	NA	NA
+tt0007340	movie	Shoes	6.9	662	1916	60	Drama	NA	NA
+tt0007459	movie	Tigre reale	6.6	123	1916	80	Drama	NA	NA
+tt0007522	movie	Vingarne	5.7	177	1916	69	Drama	NA	NA
+tt0007613	short	The Adventurer	7.3	4239	1917	24	Comedy	Short	NA
+tt0007626	short	All Avenges Itself	4.8	15	1917	39	Drama	Short	NA
+tt0007646	movie	El apóstol	7.4	65	1917	70	Animation	Comedy	Drama
+tt0007713	short	The Blouse King	6.2	8	1917	12	Short	NA	NA
+tt0007755	movie	Bucking Broadway	6.1	610	1917	53	Western	NA	NA
+tt0007765	movie	Peace's Road	4.2	22	1917	NA	War	NA	NA
+tt0007801	movie	Cleopatra	6.6	367	1917	125	Biography	Drama	History
+tt0007910	movie	The Colonel	6.7	53	1918	50	Drama	NA	NA
+tt0007958	movie	Peach Blossom	6.1	31	1917	90	Drama	NA	NA
+tt0007963	movie	The Foolish Virgin	8.1	18	1916	50	Drama	NA	NA
+tt0007984	movie	Earth's Man	4.1	23	1917	NA	Drama	NA	NA
+tt0007986	movie	The Suburban Vicar	5.5	25	1917	70	Drama	NA	NA
+tt0007998	movie	The Ghost House	6.9	28	1917	50	Comedy	Thriller	NA
+tt0008031	movie	The Great Secret	5.4	25	1917	NA	Action	Adventure	NA
+tt0008039	movie	The Death-Bell	4.2	23	1917	NA	Drama	NA	NA
+tt0008122	movie	The House Built Upon Sand	6.8	46	1916	50	Comedy	Drama	NA
+tt0008130	short	In the Fetters of Darkness	5.7	8	1917	40	Short	NA	NA
+tt0008161	movie	Korol Parizha	6.1	71	1917	63	Drama	NA	NA
+tt0008163	movie	A Penny's History	3.4	23	1918	NA	Comedy	NA	NA
+tt0008164	movie	The Charlatan	3.7	24	1917	NA	Crime	Drama	NA
+tt0008177	movie	Küzdelem a Létért	6.2	15	1918	72	Drama	NA	NA
+tt0008179	movie	The Last Suit	6	14	1915	NA	NA	NA	NA
+tt0008279	movie	The Torture of Silence	6.2	143	1917	80	Drama	NA	NA
+tt0008305	movie	Les Misérables	6.7	36	1917	100	Drama	NA	NA
+tt0008394	short	Ossi's Diary	5.6	15	1917	12	Comedy	Short	NA
+tt0008395	movie	Father Sergius	6.8	582	1918	112	Biography	Drama	History
+tt0008411	movie	Patria	6.1	40	1917	310	Action	Drama	NA
+tt0008523	short	The Rough House	5.6	1398	1917	19	Comedy	Short	NA
+tt0008536	movie	Satan Triumphant	6.8	214	1917	87	Drama	NA	NA
+tt0008558	movie	Nobody's Son	4.4	22	1917	NA	Comedy	NA	NA
+tt0008651	movie	Secret of St. Job Forest	3.8	25	1917	NA	Crime	Drama	NA
+tt0008657	short	Tatárjárás	5.8	27	1917	32	Drama	Short	NA
+tt0008658	movie	Tavasz a télben	4.2	24	1918	NA	Romance	NA	NA
+tt0008663	movie	A Man There Was	7.3	2169	1917	65	Drama	War	NA
+tt0008687	movie	Tom Sawyer	6.2	182	1917	59	Adventure	Comedy	Drama
+tt0008710	movie	Girl from Stormy Croft	6.6	227	1917	87	Drama	NA	NA
+tt0008725	movie	The Last Dawn	5.8	47	1917	NA	Adventure	Drama	Romance
+tt0008745	movie	The Red Samson	4.1	24	1917	NA	Drama	NA	NA
+tt0008800	short	Za schastem	6.8	123	1917	41	Drama	Short	NA
+tt0008804	movie	Master Zoard	4.1	25	1917	NA	Drama	NA	NA
+tt0008806	movie	Jean the Tenant	4.2	23	1918	NA	Drama	NA	NA
+tt0008807	movie	The Last Indian Attack	6.5	101	1917	97	History	War	NA
+tt0008810	movie	99	4.4	33	1918	NA	Crime	NA	NA
+tt0008825	movie	Sacrifice	5.6	27	1918	88	Horror	Sci-Fi	NA
+tt0008843	movie	Man of Gold	5.8	175	1919	83	Drama	NA	NA
+tt0008845	movie	Arizona	6	24	1918	50	Comedy	Drama	Romance
+tt0008891	movie	The Blue Bird	6.9	946	1918	75	Family	Fantasy	NA
+tt0008947	movie	Captain Fracasse	2.1	14	1919	NA	Adventure	NA	NA
+tt0008979	movie	Nye dlya deneg radivshisya	7.6	17	1918	NA	Adventure	NA	NA
+tt0008983	movie	The Ugly Boy	4.1	22	1918	NA	Drama	NA	NA
+tt0009014	movie	The Tenth Symphony	6	209	1918	94	Drama	NA	NA
+tt0009051	movie	The Rosentopf Case	6.3	22	1918	NA	Comedy	NA	NA
+tt0009062	movie	The Merry Jail	6.1	601	1917	48	Comedy	NA	NA
+tt0009096	movie	The Lighthouse Keeper's Daughter	5.7	35	1918	63	Drama	NA	NA
+tt0009145	movie	The Heart of Humanity	6	105	1918	105	Drama	Romance	War
+tt0009322	movie	Lu, the Coquette	4.1	26	1919	NA	Drama	NA	NA
+tt0009325	movie	The Lure of the Circus	5.6	33	1918	54	Action	Adventure	Romance
+tt0009337	short	Malmequer	6	9	1918	21	Drama	History	Romance
+tt0009415	movie	The Ballet Girl	6.4	19	1918	NA	Comedy	Drama	NA
+tt0009419	movie	The Sunflower Woman	5.3	28	1918	NA	Drama	NA	NA
+tt0009436	movie	Nászdal	7.1	24	1918	NA	NA	NA	NA
+tt0009557	movie	The Toboggan Cavalier	5.3	13	1918	NA	Comedy	NA	NA
+tt0009608	movie	Shifting Sands	5.6	741	1918	60	Drama	NA	NA
+tt0009619	movie	Sin dejar rastros	7.4	20	1918	NA	Animation	NA	NA
+tt0009682	movie	Tarzan of the Apes	5.7	870	1918	73	Action	Adventure	NA
+tt0009694	movie	Thomas Graals bästa barn	6.3	111	1918	95	Comedy	NA	NA
+tt0009750	movie	Congestion	4.6	28	1918	56	NA	NA	NA
+tt0009754	movie	Magic Waltz	4.4	24	1918	NA	Drama	NA	NA
+tt0009771	movie	The Merry Widow	4.8	29	1920	70	Music	NA	NA
+tt0009852	movie	The Picture of Dorian Gray	6.7	14	1918	NA	Drama	NA	NA
+tt0009853	movie	The Devil	5.6	37	1918	NA	Drama	NA	NA
+tt0009857	movie	A 111-es	4.2	18	1920	NA	Drama	Romance	Thriller
+tt0009878	movie	Different from the Others	7	1371	1919	50	Crime	Drama	History
+tt0009893	movie	The Oyster Princess	7.2	2054	1919	60	Comedy	NA	NA
+tt0009905	movie	Barrabas	7.7	106	1919	489	Crime	Thriller	NA
+tt0009932	short	Billy Blazes, Esq.	6	864	1919	12	Comedy	Short	Western
+tt0009968	movie	Broken Blossoms	7.2	10631	1919	90	Drama	Romance	NA
+tt0010113	movie	Ett farligt frieri	5.9	53	1919	65	Comedy	NA	NA
+tt0010137	movie	For Better, for Worse	5.9	743	1919	70	Drama	NA	NA
+tt0010146	short	From Hand to Mouth	6.9	1102	1919	22	Action	Comedy	Short
+tt0010180	movie	Anniversary of the Revolution	6.8	143	1918	119	Documentary	NA	NA
+tt0010203	movie	The Halfbreed	7.1	80	1919	60	Fantasy	NA	NA
+tt0010219	movie	Hawthorne of the U.S.A.	5	400	1919	57	Adventure	Comedy	Romance
+tt0010247	movie	Sir Arne's Treasure	7.1	1474	1919	122	Drama	History	NA
+tt0010265	movie	Eyes Without a Face	6.1	18	1919	NA	NA	NA	NA
+tt0010281	movie	I Don't Want to Be a Man	6.8	1530	1918	45	Comedy	Romance	NA
+tt0010307	movie	J'accuse!	7.7	1870	1919	166	Drama	Horror	War
+tt0010323	movie	The Cabinet of Dr. Caligari	8	65775	1920	76	Horror	Mystery	Thriller
+tt0010386	movie	The Lost Battalion	6.3	131	1919	70	Drama	War	NA
+tt0010456	movie	Meyer from Berlin	6	222	1919	58	Comedy	NA	NA
+tt0010497	movie	My Wife, the Movie Star	5.4	15	1918	NA	Comedy	NA	NA
+tt0010501	movie	Der Mädchenhirt	6.4	21	1919	75	Drama	NA	NA
+tt0010570	movie	La piovra	7.2	17	1919	45	NA	NA	NA
+tt0010598	movie	The President	6.6	993	1919	75	Drama	NA	NA
+tt0010600	movie	The Doll	7.4	2193	1919	66	Comedy	Fantasy	Sci-Fi
+tt0010612	movie	Intoxication	6.6	20	1919	NA	Drama	NA	NA
+tt0010668	movie	The Swabian Maiden	5	19	1919	NA	NA	NA	NA
+tt0010754	movie	Fairy of Solbakken	6.3	54	1919	111	Drama	NA	NA
+tt0010764	movie	Theodora	7.2	21	1921	NA	Drama	NA	NA
+tt0010791	movie	The Tong Man	6.4	90	1919	58	Crime	Drama	NA
+tt0010793	movie	The Dance of Death	7.1	22	1919	84	Horror	NA	NA
+tt0010795	movie	The Trail of the Octopus	6.9	42	1919	300	Action	Mystery	Thriller
+tt0010799	short	Travail	6.9	11	1920	35	Drama	Short	NA
+tt0010871	movie	When Bearcat Went Dry	4.7	35	1919	57	Drama	NA	NA
+tt0010969	movie	Missing Husbands	6.7	410	1921	172	Adventure	Fantasy	Mystery
+tt0010994	movie	Billions	6.9	24	1920	60	Comedy	NA	NA
+tt0011031	movie	The Hunchback and the Dancer	6.3	79	1920	50	Horror	NA	NA
+tt0011045	movie	Carolina Rediviva	7.3	9	1920	94	Drama	NA	NA
+tt0011110	movie	The Two Girls	6.9	12	1921	NA	Drama	NA	NA
+tt0011114	movie	The Devil's Passkey	5.9	31	1920	130	Drama	NA	NA
+tt0011144	short	An Eastern Westerner	6.8	1567	1920	23	Comedy	Family	Short
+tt0011216	movie	Spanish Fiesta	7	32	1920	67	Drama	NA	NA
+tt0011217	movie	Journey into the Night	6.2	455	1921	81	Drama	NA	NA
+tt0011221	movie	Genuine: The Tragedy of a Vampire	5.9	1077	1920	88	Horror	NA	NA
+tt0011237	movie	The Golem	7.2	7995	1920	76	Fantasy	Horror	NA
+tt0011294	movie	The Swallow and the Titmouse	7.2	220	1924	80	Drama	NA	NA
+tt0011302	movie	Man of the Sea	6.8	249	1920	86	Drama	NA	NA
+tt0011348	movie	The Head of Janus	7.5	155	1920	107	Horror	NA	NA
+tt0011369	movie	The Monastery's Hunter	8.1	123	1920	70	Drama	NA	NA
+tt0011371	movie	Kohlhiesel's Daughters	6.4	352	1920	64	Comedy	Romance	NA
+tt0011394	movie	Leather Stocking: The Last of the Mohicans	6.6	53	1920	NA	Adventure	NA	NA
+tt0011454	movie	Lord Chilcott	6	11	1918	65	Drama	NA	NA
+tt0011481	short	The Monster of Frankenstein	6	39	1921	39	Horror	Sci-Fi	Short
+tt0011521	short	Number, Please?	6.9	1157	1920	25	Comedy	Romance	Short
+tt0011607	movie	The Parson's Widow	7.1	1413	1920	94	Comedy	Drama	Horror
+tt0011608	movie	The Vicar of Vejlby	6.2	6	1922	79	Crime	Drama	NA
+tt0011641	movie	Romeo and Juliet in the Snow	6.4	216	1920	45	Comedy	NA	NA
+tt0011651	movie	Sand	7	63	1920	50	Crime	Western	NA
+tt0011654	movie	Satanas	7	91	1919	60	Drama	Horror	Mystery
+tt0011756	movie	The Testing Block	6.7	32	1920	60	Western	NA	NA
+tt0011812	movie	The Vanishing Dagger	5	17	1920	NA	Adventure	NA	NA
+tt0011837	movie	The Wandering Image	6	526	1920	67	Romance	NA	NA
+tt0011841	movie	Way Down East	7.4	5655	1920	145	Drama	Romance	NA
+tt0011845	movie	Weltbrand	7	15	1920	77	Crime	Drama	NA
+tt0011870	movie	Within Our Gates	6.4	3323	1920	79	Drama	Romance	NA
+tt0011904	movie	The Ace of Hearts	6.8	1267	1921	75	Crime	Drama	Mystery
+tt0011923	movie	Love of Perdition	6.4	14	1921	184	Drama	Family	Romance
+tt0011948	movie	Be My Wife	6.8	449	1921	55	Comedy	NA	NA
+tt0011960	movie	The Wildcat	6.9	1233	1921	79	Comedy	Drama	Romance
+tt0012017	movie	Burn 'Em Up Barnes	6.6	56	1921	60	Action	Adventure	Comedy
+tt0012153	short	The Puppet Looks for Lodgement	6	45	1921	8	Animation	Short	NA
+tt0012205	movie	Die Geierwally	6.1	34	1921	95	Drama	NA	NA
+tt0012249	movie	Hamlet	7	487	1921	131	Drama	NA	NA
+tt0012297	short	Hunger... Hunger... Hunger	9.4	25	1921	NA	Documentary	Short	NA
+tt0012304	short	The Idle Class	7.3	3972	1921	32	Comedy	Short	NA
+tt0012337	movie	Jomfru Trofast	6.8	9	1921	69	Drama	Romance	NA
+tt0012349	movie	The Kid	8.3	128079	1921	68	Comedy	Drama	Family
+tt0012364	movie	The Phantom Carriage	8	13109	1921	107	Drama	Fantasy	Horror
+tt0012365	movie	Labyrinth of Horror	5.2	83	1921	90	Drama	NA	NA
+tt0012484	movie	The Murder of General Gryaznov	5.8	60	1921	50	Action	Adventure	NA
+tt0012494	movie	Destiny	7.6	6285	1921	97	Drama	Fantasy	Horror
+tt0012538	movie	Outside the Law	6.5	665	1920	75	Crime	Romance	Thriller
+tt0012570	short	The Play House	7.5	4284	1921	23	Comedy	Fantasy	Short
+tt0012631	movie	Souls on the Road	6.6	209	1921	91	Drama	NA	NA
+tt0012675	movie	The Sheik	6.2	3500	1921	86	Adventure	Drama	Romance
+tt0012720	movie	Playing with Fire	4.4	8	1921	NA	NA	NA	NA
+tt0012740	movie	Daughter of the Night	5.5	73	1920	50	Drama	NA	NA
+tt0012807	movie	Give Me My Son	5.2	26	1921	89	Drama	NA	NA
+tt0012830	movie	What No Man Knows	6.2	22	1921	NA	Drama	NA	NA
+tt0012868	movie	Das Wunder des Schneeschuhs	7	25	1920	65	Documentary	NA	NA
+tt0012919	short	Bad Boy	6.7	8	1923	NA	Short	NA	NA
+tt0012938	movie	Beyond the Rocks	6.7	2362	1922	80	Drama	Romance	NA
+tt0012973	movie	The Burning Soil	6.9	743	1922	98	Drama	NA	NA
+tt0013025	short	Cops	7.6	6491	1922	18	Comedy	Family	Short
+tt0013086	movie	Dr. Mabuse, the Gambler	7.8	8705	1922	242	Crime	Mystery	Thriller
+tt0013122	movie	The Woman from Nowhere	6.5	257	1922	61	Drama	NA	NA
+tt0013158	short	The Frozen North	6.5	2320	1922	17	Comedy	Short	Western
+tt0013201	movie	Grandma's Boy	7	1934	1922	60	Comedy	Family	NA
+tt0013257	movie	Häxan	7.6	15208	1922	91	Documentary	Fantasy	Horror
+tt0013274	movie	Istoriya grazhdanskoy voyny	6.6	50	2021	94	Documentary	NA	NA
+tt0013284	movie	Just Tony	6.7	40	1922	70	Western	NA	NA
+tt0013367	movie	The Man from Beyond	5.3	309	1922	74	Mystery	Sci-Fi	NA
+tt0013373	movie	Marizza	6.5	99	1922	50	Drama	NA	NA
+tt0013386	movie	Merry-Go-Round	6.5	416	1923	110	Drama	NA	NA
+tt0013388	movie	Messalina	5.6	36	1924	105	Drama	History	NA
+tt0013427	movie	Nanook of the North	7.6	12774	1922	78	Documentary	NA	NA
+tt0013442	movie	Nosferatu	7.9	99711	1922	94	Fantasy	Horror	NA
+tt0013571	movie	Salomé	6.6	1048	1922	72	Biography	Drama	History
+tt0013579	movie	Warning Shadows	6.7	1050	1923	90	Drama	Fantasy	Horror
+tt0013617	movie	The Little Napoleon	5.7	22	1923	NA	Biography	Drama	NA
+tt0013619	movie	Sodom and Gomorrah	6	222	1922	150	Drama	NA	NA
+tt0013626	short	The Smiling Madame Beudet	6.6	2688	1923	38	Drama	Short	NA
+tt0013674	movie	The Three Must-Get-Theres	7	605	1922	58	Action	Adventure	Comedy
+tt0013688	movie	The Toll of the Sea	6.6	848	1922	54	Drama	Family	Fantasy
+tt0013710	movie	Trifling Women	6.8	26	1922	90	Drama	Romance	NA
+tt0013728	movie	Vanina	5.8	65	1922	68	Drama	NA	NA
+tt0013741	movie	The Loves of Pharaoh	6.6	595	1922	100	Drama	History	NA
+tt0013807	short	Lao gong zhi ai qing	6.4	278	1922	30	Comedy	Romance	Short
+tt0013830	movie	This Ancient Law	7.1	220	1923	128	Drama	NA	NA
+tt0013891	movie	Bright Lights of Broadway	5.4	13	1923	70	Drama	NA	NA
+tt0013933	movie	The Faithful Heart	7.5	1353	1923	87	Drama	Romance	NA
+tt0013992	short	Glumov's Diary	5.6	851	1923	5	Comedy	Fantasy	Short
+tt0014022	movie	Earth Spirit	6.1	76	1923	69	NA	NA	NA
+tt0014046	short	The Flame	6.3	46	1923	43	Drama	Short	NA
+tt0014069	movie	Paris Urchin	6.7	25	1923	120	Comedy	NA	NA
+tt0014118	movie	The Haunted Valley	6.9	29	1923	NA	Adventure	Mystery	Thriller
+tt0014174	movie	Karusellen	6.6	11	1923	55	Drama	NA	NA
+tt0014181	movie	Kiri no minato	5.8	11	1923	60	Drama	NA	NA
+tt0014183	movie	Kokyô	7.3	14	1923	NA	NA	NA	NA
+tt0014186	movie	Krasnye dyavolyata	6.1	114	1923	130	Action	Adventure	Drama
+tt0014191	movie	Die Lawine	5.4	80	1923	71	Drama	NA	NA
+tt0014262	movie	Mary of the Movies	7	19	1923	57	Drama	Romance	NA
+tt0014269	movie	Man by the Roadside	4.9	25	1923	NA	NA	NA	NA
+tt0014301	movie	Malar Pirates	6.3	66	1923	107	Comedy	NA	NA
+tt0014320	movie	The Nurtull Gang	6.5	149	1923	76	Comedy	NA	NA
+tt0014323	movie	The Village Shoemakers	5.9	88	1923	83	Comedy	Drama	NA
+tt0014339	movie	Good Luck	7	32	1923	61	Drama	NA	NA
+tt0014397	movie	Crime and Punishment	6.7	337	1923	135	Drama	NA	NA
+tt0014408	movie	Richard the Lion-Hearted	6.8	20	1923	80	Drama	NA	NA
+tt0014416	movie	Rosita	6.4	431	1923	99	Comedy	Romance	NA
+tt0014417	movie	The Wheel	7.5	2373	1923	417	Drama	NA	NA
+tt0014446	movie	The Treasure	6.7	319	1923	80	Drama	Romance	NA
+tt0014447	movie	Explosion	6.5	73	1923	65	Action	Drama	NA
+tt0014451	movie	The Sea Raiders	5	13	1922	NA	Adventure	Romance	NA
+tt0014516	movie	The Street	6.8	423	1923	74	Drama	NA	NA
+tt0014532	movie	The Ten Commandments	6.8	2375	1923	136	Biography	Drama	Fantasy
+tt0014538	movie	Three Ages	7	4651	1923	63	Comedy	NA	NA
+tt0014577	movie	Der verlorene Schuh	6.3	44	1923	50	Fantasy	NA	NA
+tt0014584	short	La voix du rossignol	7.2	410	1925	13	Animation	Fantasy	Short
+tt0014586	movie	Waxworks	6.6	2164	1924	107	Fantasy	Horror	NA
+tt0014646	movie	Aelita, the Queen of Mars	6.4	2724	1924	111	Adventure	Comedy	Drama
+tt0014667	short	All Night Long	6.3	151	1924	19	Comedy	Short	War
+tt0014699	short	The Battling Fool	5.4	12	1924	44	Drama	Short	Sport
+tt0014762	movie	Carlos and Elisabeth	6.4	30	1924	115	Drama	NA	NA
+tt0014764	movie	College Boarding House	6.6	10	1925	162	Comedy	NA	NA
+tt0014797	movie	Conductor 1492	6.3	68	1924	70	Comedy	NA	NA
+tt0014900	movie	Finances of the Grand Duke	6.3	926	1924	80	Comedy	NA	NA
+tt0014904	short	Egy fiúnak a fele	6.1	22	1924	41	Drama	Short	NA
+tt0014931	movie	La galerie des monstres	6.9	109	1924	75	Drama	NA	NA
+tt0014972	movie	He Who Gets Slapped	7.8	3979	1924	95	Drama	Romance	Thriller
+tt0015014	movie	L'inhumaine	7.2	948	1924	135	Drama	Mystery	Romance
+tt0015016	movie	The Iron Horse	7.2	2293	1924	150	Drama	History	Romance
+tt0015036	movie	Edmund Kean: Prince Among Lovers	6.6	180	1924	136	Drama	NA	NA
+tt0015039	movie	Kino Eye	6.9	1135	1924	78	Documentary	NA	NA
+tt0015044	movie	Comedians	6.8	15	1925	NA	NA	NA	NA
+tt0015064	movie	The Last Laugh	8	14442	1924	77	Drama	NA	NA
+tt0015156	movie	The Price They Pay	4.9	8	1924	79	Crime	Drama	NA
+tt0015157	movie	Beyond Death	5.6	8	1924	83	Drama	NA	NA
+tt0015167	movie	The Extraordinary Adventures of Mr. West in the Land of the Bolsheviks	6.5	1050	1924	94	Comedy	Fantasy	Romance
+tt0015174	movie	Die Nibelungen: Kriemhild's Revenge	7.9	4670	1924	129	Adventure	Drama	Fantasy
+tt0015175	movie	Die Nibelungen: Siegfried	8.1	6114	1924	143	Adventure	Drama	Fantasy
+tt0015202	movie	The Hands of Orlac	7	3113	1924	92	Crime	Horror	Mystery
+tt0015213	movie	The Cigarette Girl of Mosselprom	6.6	178	1924	78	Comedy	Romance	NA
+tt0015214	movie	At 3:25	7.1	1816	1925	59	Sci-Fi	NA	NA
+tt0015263	movie	The Reckless Age	6.2	58	1924	70	Comedy	Drama	Music
+tt0015284	movie	Roaring Rails	6.5	94	1924	60	Drama	NA	NA
+tt0015324	movie	Sherlock Jr.	8.2	51438	1924	45	Action	Comedy	Romance
+tt0015361	movie	Strike	7.6	8234	1925	82	Drama	NA	NA
+tt0015375	movie	Studenterna på Tröstehult	5	15	1924	96	NA	NA	NA
+tt0015393	movie	Terror	7.8	12	1924	NA	Drama	NA	NA
+tt0015414	movie	La tierra de los toros	5.3	16	2000	60	NA	NA	NA
+tt0015532	movie	The Adventures of Prince Achmed	7.8	6430	1926	80	Adventure	Animation	Family
+tt0015624	movie	The Big Parade	7.9	6948	1925	151	Drama	Romance	War
+tt0015626	movie	Das Bildnis	7	18	1923	115	Drama	Fantasy	Romance
+tt0015635	short	Boobs in the Wood	6.2	81	1925	20	Comedy	Romance	Short
+tt0015648	movie	Battleship Potemkin	7.9	58980	1925	75	Drama	History	Thriller
+tt0015673	short	Chess Fever	7.1	1404	1925	28	Comedy	Short	NA
+tt0015745	movie	The Desert Flower	7	39	1925	70	Western	NA	NA
+tt0015771	movie	The case of the murder of Tariel Mklavadze	5.8	31	1925	70	Crime	Drama	Horror
+tt0015794	movie	The Phantom of the Moulin-Rouge	6.4	215	1925	90	Drama	Fantasy	NA
+tt0015801	movie	The Living Dead Man	7	418	1925	170	Comedy	Drama	Romance
+tt0015802	short	Fiddlin' Around	5.1	31	1925	NA	Comedy	Short	NA
+tt0015842	movie	The Joyless Street	7.1	1636	1925	125	Drama	NA	NA
+tt0015847	movie	Furusato no uta	5.8	142	1926	45	Drama	NA	NA
+tt0015861	movie	The Bride of Glomdal	6.6	593	1926	115	Drama	Romance	NA
+tt0015864	movie	The Gold Rush	8.1	112833	1925	95	Adventure	Comedy	Drama
+tt0015881	movie	Greed	8.1	10263	1924	140	Drama	Thriller	Western
+tt0015916	short	His Marriage Wow	6.6	207	1925	21	Comedy	Romance	Short
+tt0015935	movie	El húsar de la muerte	6.6	145	1925	65	Biography	Drama	History
+tt0015997	movie	The Stationmaster	7	16	1925	77	Drama	NA	NA
+tt0015998	movie	Cross and Mauser	6.3	23	1925	104	Adventure	NA	NA
+tt0016039	movie	The Lost World	7	5466	1925	110	Adventure	Fantasy	Sci-Fi
+tt0016051	movie	The Lucky Devil	6.3	41	1925	63	Action	Comedy	Drama
+tt0016112	movie	Les Misérables	7.1	83	1925	359	Drama	NA	NA
+tt0016142	movie	The Mystic	6.2	145	1925	70	Drama	NA	NA
+tt0016174	movie	Old Clothes	2.2	181	1925	65	Drama	NA	NA
+tt0016220	movie	The Phantom of the Opera	7.5	18988	1925	93	Horror	NA	NA
+tt0016226	movie	The Plastic Age	6	343	1925	73	Comedy	Romance	Sport
+tt0016232	movie	Poil de carotte	7.1	291	1925	123	Drama	NA	NA
+tt0016234	movie	Constable Paulus' Easter Bomb	5.4	20	1925	82	Comedy	Drama	NA
+tt0016240	movie	Prem Sanyas	6.5	175	1925	97	Biography	Drama	History
+tt0016241	movie	Pretty Ladies	5	257	1925	74	Comedy	Drama	NA
+tt0016283	short	Lost & Found	7.1	68	1925	20	Comedy	Short	NA
+tt0016368	movie	Soft Shoes	6.5	26	1925	60	Western	NA	NA
+tt0016370	movie	Solskinsdalen	6.1	8	1925	54	NA	NA	NA
+tt0016392	movie	The City Without Jews	6.3	390	1924	91	Drama	NA	NA
+tt0016473	movie	The Unholy Three	7.2	2010	1925	86	Crime	Drama	Romance
+tt0016491	movie	Mother	7.6	895	1925	114	Drama	Mystery	Romance
+tt0016493	movie	The Imaginary Voyage	6.7	239	1926	80	Comedy	Drama	Fantasy
+tt0016526	movie	The White Outlaw	7.2	73	1925	50	Western	NA	NA
+tt0016544	movie	The Wizard of Oz	4.9	1661	1925	95	Adventure	Comedy	Family
+tt0016564	movie	Heart of an Actress	7	34	1924	85	Drama	NA	NA
+tt0016618	movie	Bad Man's Bluff	5	13	1926	50	Western	NA	NA
+tt0016641	movie	Ben-Hur: A Tale of the Christ	7.8	7732	1925	143	Action	Adventure	Drama
+tt0016691	movie	The Bridal Party in Hardanger	6.8	138	1926	104	Drama	Romance	NA
+tt0016696	movie	The Bay of Death	7.5	29	1926	84	Drama	NA	NA
+tt0016804	movie	Don Juan	7	847	1926	110	Adventure	Romance	NA
+tt0016846	short	O Fauno das Montanhas	6.7	21	1926	40	Drama	Fantasy	Short
+tt0016847	movie	Faust	8.1	15719	1926	107	Drama	Fantasy	Horror
+tt0016874	movie	The Fire Brigade	7.5	65	1926	90	Drama	NA	NA
+tt0016884	movie	Flesh and the Devil	7.6	4404	1926	112	Drama	Music	NA
+tt0016885	movie	Girl in Tails	6.9	68	1926	114	Drama	NA	NA
+tt0016895	movie	For Heaven's Sake	7.5	1785	1926	58	Action	Comedy	Romance
+tt0016906	movie	Frivolinas	5.6	21	1927	80	Comedy	Musical	NA
+tt0016939	movie	The Great K & A Train Robbery	6.4	365	1926	53	Western	NA	NA
+tt0016953	movie	The Holy Mountain	6.6	862	1926	100	Drama	NA	NA
+tt0016981	movie	The Honeymoon Express	6.4	21	1926	70	Drama	NA	NA
+tt0017009	movie	Johnny Get Your Hair Cut	7.3	12	1927	70	Comedy	Drama	NA
+tt0017017	movie	The Imaginary Baron	5.6	16	1927	NA	NA	NA	NA
+tt0017020	movie	Kaikoku danji	7.8	10	1926	58	NA	NA	NA
+tt0017022	movie	Kaminingyô no haru no sasayaki	6.3	14	1926	100	NA	NA	NA
+tt0017023	movie	Kane	7.2	15	1926	68	Comedy	NA	NA
+tt0017027	movie	The Innocent Susanne	6.9	17	1926	NA	Comedy	NA	NA
+tt0017043	movie	Heads Up, Charley	5.2	11	1927	NA	NA	NA	NA
+tt0017047	movie	The Wings of a Serf	7.4	20	1926	79	Drama	NA	NA
+tt0017048	movie	A Page of Madness	7.4	3997	1926	70	Drama	Horror	Thriller
+tt0017049	movie	The Passion of a Woman Teacher	7.2	26	1926	53	Drama	Horror	Romance
+tt0017075	movie	The Lodger: A Story of the London Fog	7.3	12433	1927	92	Crime	Drama	Mystery
+tt0017097	movie	The Hero of the Circus	5.4	64	1926	NA	Adventure	NA	NA
+tt0017103	movie	The Magician	6.7	777	1926	83	Drama	Fantasy	Horror
+tt0017128	movie	Mother	7.5	2927	1926	89	Drama	NA	NA
+tt0017136	movie	Metropolis	8.3	176615	1927	153	Drama	Sci-Fi	NA
+tt0017137	movie	Michel Strogoff	7.2	123	1926	168	Adventure	NA	NA
+tt0017159	movie	The Adventures of the Three Reporters	6.9	332	1926	250	Adventure	Comedy	Crime
+tt0017180	movie	Murtovarkaus	5.8	13	1926	84	Drama	NA	NA
+tt0017226	movie	Old Ironsides	6.8	270	1926	111	Drama	History	NA
+tt0017253	movie	Parovoz No. 10006	2.6	12	1926	NA	NA	NA	NA
+tt0017271	movie	By the Law	7.6	1146	1926	80	Action	Drama	Mystery
+tt0017292	movie	The Prey of the Wind	6.7	121	1927	90	Drama	Romance	NA
+tt0017293	movie	Three Thieves	7.1	174	1926	66	Comedy	NA	NA
+tt0017321	movie	A Regular Scout	4.5	33	1926	60	Action	Adventure	Romance
+tt0017338	movie	The Knight of the Rose	6.1	125	1925	105	Comedy	NA	NA
+tt0017356	movie	Sea Horses	5.8	16	1926	70	Drama	Romance	NA
+tt0017376	movie	The Sixth Part of the World	7.2	553	1926	68	Documentary	NA	NA
+tt0017378	movie	The Overcoat	6.6	378	1926	84	Drama	NA	NA
+tt0017405	short	Slipping Wives	6	544	1927	23	Comedy	Short	NA
+tt0017409	movie	So This Is Paris	7.1	684	1926	60	Comedy	NA	NA
+tt0017416	movie	The Son of the Sheik	6.6	2025	1926	68	Adventure	Drama	Romance
+tt0017418	movie	Sorok pervyy	7	142	1927	66	Drama	War	NA
+tt0017421	movie	Spangles	6.1	29	1926	77	Drama	Romance	NA
+tt0017423	movie	Sparrows	7.4	1396	1926	109	Drama	NA	NA
+tt0017438	movie	The Student of Prague	6.9	720	1926	110	Drama	Horror	NA
+tt0017492	movie	Twinkletoes	7	91	1926	80	Drama	Romance	NA
+tt0017508	movie	Upstage	6.9	93	1926	76	Drama	Romance	NA
+tt0017513	movie	Vasya reformator	7.3	29	1926	49	Comedy	Drama	NA
+tt0017527	movie	War Paint	5.2	14	1926	NA	Western	NA	NA
+tt0017534	movie	West Point	6.6	1934	1927	95	Drama	Romance	Sport
+tt0017567	movie	The Winning of Barbara Worth	7	892	1926	89	Drama	Romance	Western
+tt0017584	movie	You Never Know Women	6.8	129	1926	70	Drama	NA	NA
+tt0017621	movie	A Daughter of Destiny	6.2	386	1928	108	Drama	Fantasy	Horror
+tt0017668	movie	Berlin: Symphony of a Great City	7.6	4544	1927	65	Documentary	NA	NA
+tt0017683	movie	Blighty	6	16	1927	NA	Drama	War	NA
+tt0017726	movie	Café Elektric	6.3	155	1927	91	Drama	NA	NA
+tt0017735	movie	Captain Salvation	6.8	326	1927	87	Drama	Romance	NA
+tt0017736	movie	The Loves of Casanova	7.1	230	1927	132	Biography	Drama	NA
+tt0017739	movie	The Cat and the Canary	7.1	3117	1927	108	Comedy	Horror	Mystery
+tt0017743	movie	Chang: A Drama of the Wilderness	6.9	1035	1927	69	Adventure	Documentary	Drama
+tt0017744	short	Charleston Parade	5.9	701	1927	17	Sci-Fi	Short	NA
+tt0017766	movie	The College Hero	4.9	30	1927	54	Comedy	Romance	NA
+tt0017805	movie	The Desired Woman	4.1	27	1927	70	Adventure	Drama	Romance
+tt0017809	movie	The Girl with the Hat Box	7.1	769	1927	60	Comedy	Drama	Romance
+tt0017839	movie	Two Days	7.1	62	1927	60	Drama	NA	NA
+tt0017844	movie	Seeds of Freedom	6.8	30	1928	60	Drama	NA	NA
+tt0017866	movie	Fast and Furious	5.5	49	1927	60	Comedy	NA	NA
+tt0017883	movie	Finger Prints	6	18	1927	70	Comedy	Crime	NA
+tt0017925	movie	The General	8.1	92924	1926	67	Action	Adventure	Comedy
+tt0017938	movie	The Three-Sided Mirror	6.9	922	1927	45	Drama	Romance	NA
+tt0017946	movie	Good Time Charley	5.6	38	1927	70	Drama	NA	NA
+tt0017952	movie	Das Mädchen mit den fünf Nullen	7.3	20	1927	97	Comedy	NA	NA
+tt0017954	movie	The Great Leap	6.1	151	1927	112	Adventure	Comedy	NA
+tt0017970	movie	Hawk of the Hills	6.2	15	1927	200	Western	NA	NA
+tt0018033	movie	It	7.2	3352	1927	72	Comedy	Romance	NA
+tt0018037	movie	The Jazz Singer	6.4	10411	1927	88	Drama	Music	Musical
+tt0018049	movie	Betrayal	6.6	13	1927	124	History	NA	NA
+tt0018051	movie	The Kid Brother	7.6	4549	1927	82	Comedy	Drama	Family
+tt0018054	movie	The King of Kings	7.4	2242	1927	160	Biography	Drama	Family
+tt0018060	movie	Kôon	6.8	11	1927	NA	NA	NA	NA
+tt0018066	movie	The End of St. Petersburg	7.3	1772	1927	85	Drama	NA	NA
+tt0018082	movie	Laster der Menschheit	7.6	14	1927	NA	Drama	NA	NA
+tt0018087	movie	The Love of Jeanne Ney	7.2	831	1927	104	Drama	Romance	NA
+tt0018107	movie	Love	6.9	1100	1927	82	Drama	Romance	NA
+tt0018128	movie	Madame Visits Oslo	6.3	12	1927	118	Adventure	Crime	Drama
+tt0018142	movie	The Marriage of Mademoiselle Beulemans	6.3	35	1927	65	Comedy	NA	NA
+tt0018159	movie	A Million Bid	5.8	38	1927	70	Drama	Romance	NA
+tt0018172	movie	Moscow	7.8	54	1927	60	Documentary	NA	NA
+tt0018183	movie	My Best Girl	7.5	897	1927	80	Comedy	Romance	NA
+tt0018192	movie	Napoleon	8.2	8067	1927	330	Biography	Drama	History
+tt0018199	movie	Nevada	6.2	129	1927	70	Western	NA	NA
+tt0018208	movie	The Young Eagles	6.6	95	1927	78	Drama	Romance	War
+tt0018217	movie	October (Ten Days that Shook the World)	7.4	8079	1927	142	Drama	History	NA
+tt0018243	movie	Outlaws of Red River	6	33	1927	60	Western	NA	NA
+tt0018246	movie	The Fall of the Romanov Dynasty	6.4	332	1927	90	Documentary	History	NA
+tt0018258	movie	Husband by Proxy	5.5	26	1927	105	Drama	NA	NA
+tt0018269	movie	Poet i tsar	6.3	33	1927	85	Drama	NA	NA
+tt0018311	movie	The Red Mill	6.8	1473	1927	74	Comedy	Romance	NA
+tt0018325	movie	Ride 'em High	5	11	1927	50	Western	NA	NA
+tt0018368	short	The Second 100 Years	6.8	787	1927	20	Comedy	Short	NA
+tt0018372	movie	His Greatest Bluff	6.4	25	1927	NA	Comedy	NA	NA
+tt0018381	movie	Señorita	6.9	30	1927	70	Action	Comedy	NA
+tt0018410	movie	Six et demi onze	6.9	123	1927	84	Drama	NA	NA
+tt0018451	movie	The Student Prince in Old Heidelberg	7.6	1551	1927	106	Drama	Romance	NA
+tt0018453	movie	The Diplomatic Pouch	6.5	171	1927	48	Thriller	NA	NA
+tt0018455	movie	Sunrise	8.1	51815	1927	94	Drama	Romance	NA
+tt0018469	movie	The Telephone Girl	6.4	9	1927	60	Drama	NA	NA
+tt0018478	movie	Lost Treasure	6.4	66	1927	86	Adventure	NA	NA
+tt0018524	movie	Uncle Tom's Cabin	6.8	468	1927	144	Drama	History	NA
+tt0018525	movie	The Understanding Heart	2.5	185	1927	67	Adventure	Crime	Drama
+tt0018526	movie	Underworld	7.5	3216	1927	80	Crime	Drama	Film-Noir
+tt0018537	movie	Vester Vov-Vov	6.5	30	1927	139	Comedy	NA	NA
+tt0018548	movie	The War Horse	6.9	19	1927	50	Adventure	Drama	Romance
+tt0018553	movie	The White Spider	7.4	8	1927	NA	Drama	NA	NA
+tt0018578	movie	Wings	7.6	13437	1927	144	Action	Drama	Romance
+tt0018584	movie	The Wizard	7.1	119	1927	60	Horror	Mystery	Sci-Fi
+tt0018588	movie	Three Loves	6.7	274	1929	76	Drama	NA	NA
+tt0018600	movie	Xi xiang ji	6.1	154	1927	50	Drama	Romance	NA
+tt0018606	movie	Blade of Penitence	6.9	56	1927	70	Drama	NA	NA
+tt0018618	movie	Across to Singapore	6.2	1160	1928	85	Crime	Drama	Romance
+tt0018619	movie	The Actress	6.2	28	1928	70	Comedy	Drama	NA
+tt0018622	movie	Adoration	6.8	28	1928	73	Drama	NA	NA
+tt0018638	movie	Alias Jimmy Valentine	6.9	36	1928	88	Drama	NA	NA
+tt0018642	movie	The Old Fritz	5.9	27	1928	167	Biography	Drama	History
+tt0018647	movie	Anybody Here Seen Kelly?	6	33	1928	80	Comedy	NA	NA
+tt0018662	movie	Avalanche	6.4	13	1928	60	Action	Drama	Romance
+tt0018666	movie	The Awakening	5.6	81	1928	90	Drama	Romance	War
+tt0018674	movie	The Barker	7.1	115	1928	80	Drama	NA	NA
+tt0018686	movie	The White Eagle	6.4	62	1928	67	Drama	History	NA
+tt0018696	short	The Bicycle Flirt	7.7	16	1928	20	Comedy	Short	NA
+tt0018714	movie	Physical Beauty	5.6	34	1928	55	Comedy	NA	NA
+tt0018727	movie	Brotherly Love	6.2	19	1928	67	Comedy	NA	NA
+tt0018728	short	The Bridge	6.9	496	1928	15	Documentary	Short	NA
+tt0018729	movie	Buck Privates	7.7	32	1928	70	Comedy	NA	NA
+tt0018737	movie	Pandora's Box	7.8	11166	1929	109	Crime	Drama	Romance
+tt0018742	movie	The Cameraman	8	12161	1928	76	Comedy	Drama	Family
+tt0018748	movie	Captain Swagger	5	41	1928	65	Drama	NA	NA
+tt0018753	movie	Celebrity	6.8	16	1928	65	Drama	Romance	Sport
+tt0018770	movie	The Fall of the House of Usher	7.3	4158	1928	63	Drama	Fantasy	Horror
+tt0018773	movie	The Circus	8.1	34532	1928	72	Comedy	Family	Romance
+tt0018792	movie	The Cop	6.2	49	1928	77	Drama	NA	NA
+tt0018826	movie	Two Timid Souls	6.9	212	1928	87	Comedy	NA	NA
+tt0018839	movie	The Docks of New York	7.5	4709	1928	76	Crime	Drama	Film-Noir
+tt0018841	movie	Dom na Trubnoy	7.2	697	1928	64	Comedy	NA	NA
+tt0018849	movie	The Dragnet	7.2	19	1928	80	Crime	Drama	NA
+tt0018856	movie	Three Friends and an Invention	6.4	18	1927	60	Comedy	Romance	NA
+tt0018867	movie	Escape from Hong Kong	5.6	35	1942	60	Adventure	Mystery	War
+tt0018870	movie	Excess Baggage	7.4	24	1928	72	Comedy	NA	NA
+tt0018876	movie	The Farmer's Wife	5.8	2951	1928	100	Comedy	Drama	Romance
+tt0018880	movie	The Fearless Rider	5.3	18	1928	51	Action	Adventure	Romance
+tt0018888	movie	Filmens helte	6.5	28	1928	119	Comedy	NA	NA
+tt0018890	short	The Finishing Touch	7.2	1291	1928	19	Comedy	Short	NA
+tt0018909	movie	Four Sons	7.2	834	1928	100	Drama	War	NA
+tt0018930	movie	The Secret Courier	6.5	18	1928	NA	NA	NA	NA
+tt0018961	movie	The Amateur Adventure	7.2	8	1928	92	NA	NA	NA
+tt0018967	movie	Gustaf Wasa, Part One	5.4	13	1928	103	NA	NA	NA
+tt0018968	movie	Gustaf Wasa, Part Two	4.9	12	1928	111	NA	NA	NA
+tt0018973	movie	Majestät schneidet Bubiköpfe	7.4	22	1928	82	Drama	NA	NA
+tt0018987	movie	Heart to Heart	5.6	27	1928	70	Comedy	NA	NA
+tt0018996	movie	High Treason	6.1	178	1929	95	Sci-Fi	NA	NA
+tt0018998	short	Couple on the Move	6.2	25	1928	41	Short	NA	NA
+tt0019023	movie	Hot Heels	5.5	19	1927	60	Action	Comedy	Crime
+tt0019034	short	Mati samepo	6.9	13	1928	20	Documentary	Short	NA
+tt0019041	movie	Jazz Mad	6.8	11	1928	70	Drama	Romance	NA
+tt0019043	movie	Crossroads	7.1	421	1928	81	Drama	NA	NA
+tt0019045	short	Pumpkin	6.4	25	1928	43	Short	NA	NA
+tt0019049	movie	Fight of the Tertia	8	12	1929	NA	NA	NA	NA
+tt0019050	movie	Fight for the Matterhorn	7.1	55	1928	117	Drama	NA	NA
+tt0019058	movie	Kraft og skønhed	6.4	7	1927	123	Comedy	NA	NA
+tt0019071	movie	The Last Command	8	4113	1928	88	Drama	History	Romance
+tt0019098	movie	Lilac Time	6.6	714	1928	80	Drama	Romance	War
+tt0019103	movie	Skirts	7.2	12	1928	72	Comedy	NA	NA
+tt0019130	movie	The Man Who Laughs	7.7	7312	1928	110	Drama	Horror	Mystery
+tt0019132	movie	The Man from Headquarters	4.8	28	1928	60	Crime	Drama	Mystery
+tt0019141	movie	Wedding March	6.7	12	1929	NA	Comedy	NA	NA
+tt0019144	movie	Marked Money	5.7	27	1928	60	Drama	NA	NA
+tt0019175	movie	Moy syn	6.8	38	1928	49	Drama	NA	NA
+tt0019182	movie	Mother Machree	5.4	171	1927	75	Drama	NA	NA
+tt0019221	movie	Wife Lost	6	34	1928	55	Drama	NA	NA
+tt0019233	movie	On Trial	6.6	20	1928	91	Drama	Mystery	Romance
+tt0019237	movie	Our Dancing Daughters	6.7	1875	1928	85	Drama	NA	NA
+tt0019252	movie	Partners in Crime	2.3	42	1928	65	Action	Adventure	Comedy
+tt0019254	movie	The Passion of Joan of Arc	8.2	56445	1928	110	Biography	Drama	History
+tt0019260	movie	Peace on Earth	8.1	14	1928	NA	NA	NA	NA
+tt0019267	short	The Little Match Girl	7.1	1453	1928	40	Drama	Fantasy	Short
+tt0019286	movie	Storm Over Asia	7	2197	1928	127	Drama	War	NA
+tt0019312	movie	The Red Dance	6.2	143	1928	103	Drama	Music	Romance
+tt0019335	movie	Rose-Marie	4.2	220	1928	70	Drama	NA	NA
+tt0019348	movie	Sal of Singapore	5.7	51	1928	70	Drama	NA	NA
+tt0019369	movie	Shanhkayskiy dokument	6.6	31	1928	51	Documentary	NA	NA
+tt0019374	movie	Shiraz	7	310	1928	97	Drama	History	Romance
+tt0019388	movie	The Singing Fool	6.3	254	1928	105	Drama	Musical	NA
+tt0019403	movie	Salt for Svanetia	7.5	820	1930	55	Documentary	NA	NA
+tt0019415	movie	Spies	7.5	3722	1928	150	Romance	Thriller	NA
+tt0019422	short	Steamboat Willie	7.5	9817	1928	8	Animation	Comedy	Family
+tt0019429	movie	Street Angel	7.3	2437	1928	102	Drama	NA	NA
+tt0019474	movie	Thunder Riders	3.8	46	1928	50	Western	NA	NA
+tt0019476	movie	Thérèse Raquin	6.9	23	1928	90	Crime	Drama	Romance
+tt0019480	movie	The Sad Sack	6.3	262	1928	87	Comedy	NA	NA
+tt0019486	movie	The Tournament	6.3	90	1928	90	Drama	NA	NA
+tt0019489	movie	The Trail of '98	7	419	1928	87	Action	Adventure	Drama
+tt0019504	short	Two Tars	7.2	1484	1928	21	Comedy	Family	Short
+tt0019514	movie	Under the Lantern	7.3	99	1928	130	Drama	NA	NA
+tt0019516	movie	V bolshom gorode	5.4	27	1928	73	Drama	NA	NA
+tt0019526	movie	The Great Road	6	10	1927	NA	NA	NA	NA
+tt0019543	movie	Dreams of Youth	6	48	1928	56	Comedy	NA	NA
+tt0019553	movie	The Way of All Flesh	6.9	198	1927	94	Drama	NA	NA
+tt0019557	movie	Weary River	6.1	510	1929	86	Drama	Music	Romance
+tt0019558	movie	The Wedding March	7.4	1813	1928	113	Drama	NA	NA
+tt0019562	movie	West of Santa Fe	5.2	20	1928	48	Western	NA	NA
+tt0019563	movie	West of Zanzibar	7.2	1835	1928	65	Drama	Mystery	NA
+tt0019574	movie	White Shadows in the South Seas	6.9	885	1928	88	Drama	Romance	NA
+tt0019582	movie	The Wild West Show	5.1	20	1928	60	Western	NA	NA
+tt0019589	movie	The Woman Disputed	7.4	124	1928	108	Drama	History	Romance
+tt0019598	movie	Wyoming	5.6	22	1928	NA	Action	Adventure	Romance
+tt0019599	movie	Die Yacht der sieben Sünden	6.5	23	1928	NA	Drama	NA	NA
+tt0019607	short	You're Darn Tootin'	6.6	1202	1928	20	Comedy	Music	Short
+tt0019610	movie	Refuge	7.3	31	1928	130	Drama	NA	NA
+tt0019611	movie	Zvenigora	7.1	1085	1928	68	Drama	Fantasy	NA
+tt0019616	short	Überfall	6.9	410	1928	21	Crime	Drama	Short
+tt0019620	movie	The Ace of Scotland Yard	6.2	23	1929	215	Action	Crime	Drama
+tt0019629	movie	The Cursed Village	6.9	246	1930	57	Drama	NA	NA
+tt0019630	movie	Alibi	5.7	868	1929	91	Action	Crime	Romance
+tt0019640	short	Angora Love	6.8	913	1929	21	Comedy	Short	NA
+tt0019644	movie	Applause	7.1	1433	1929	80	Drama	Musical	Romance
+tt0019646	movie	L'Argent	7.5	1102	1928	195	Drama	Romance	NA
+tt0019649	movie	Arsenal	7.2	2199	1929	93	Drama	War	NA
+tt0019651	short	Asahi wa kagayaku	5.8	64	1929	25	Drama	Short	NA
+tt0019657	movie	Atlantik	6.6	49	1929	114	Drama	History	NA
+tt0019658	movie	Atlantic	5.2	263	1929	90	Drama	NA	NA
+tt0019668	movie	Bachelor's Club	4	17	1929	NA	Action	Comedy	NA
+tt0019684	movie	Behind That Curtain	4.8	522	1929	91	Adventure	Crime	Mystery
+tt0019686	short	Berth Marks	6.9	1475	1929	19	Comedy	Short	NA
+tt0019699	movie	The Black Watch	5.6	430	1929	93	Adventure	Drama	NA
+tt0019702	movie	Blackmail	6.9	11207	1929	85	Crime	Thriller	NA
+tt0019706	movie	Wine Cellars	6	32	1930	87	NA	NA	NA
+tt0019708	movie	Tetri mkhedari	7.2	44	1929	70	Action	Adventure	Drama
+tt0019709	movie	The Bondman	5.4	10	1929	NA	Adventure	NA	NA
+tt0019725	movie	Broadway	6.2	422	1929	104	Crime	Music	Romance
+tt0019726	movie	Broadway Babies	6.1	214	1929	86	Drama	Musical	NA
+tt0019729	movie	The Broadway Melody	5.6	7486	1929	100	Drama	Musical	Romance
+tt0019730	movie	Broadway Scandals	5.3	18	1929	73	Comedy	Drama	Musical
+tt0019734	movie	Brothers	6.8	84	1929	78	Drama	NA	NA
+tt0019735	movie	Bulldog Drummond	6.3	1133	1929	90	Crime	Drama	Mystery
+tt0019745	movie	The Canary Murder Case	5.9	755	1929	82	Crime	Mystery	NA
+tt0019746	movie	Le capitaine Fracasse	6.7	210	1929	92	Adventure	Drama	NA
+tt0019757	movie	The Charlatan	7.2	45	1929	60	Mystery	Romance	Thriller
+tt0019758	movie	Charming Sinners	6.1	91	1929	66	Drama	Romance	NA
+tt0019760	movie	Man with a Movie Camera	8.4	26197	1929	68	Documentary	Music	NA
+tt0019766	movie	An Hour with Chekhov	7.2	60	1929	64	Comedy	NA	NA
+tt0019775	movie	The Clue of the New Pin	4.8	13	1929	81	Crime	Mystery	NA
+tt0019777	movie	The Cocoanuts	6.8	7864	1929	96	Adventure	Comedy	Musical
+tt0019779	movie	The Cohens and Kellys in Atlantic City	6.2	15	1929	70	Comedy	Music	Romance
+tt0019796	movie	I Graduated, But...	6.4	501	1929	70	Comedy	NA	NA
+tt0019800	movie	Dangerous Curves	5.7	152	1929	75	Drama	NA	NA
+tt0019801	movie	A Dangerous Woman	5.3	56	1929	80	Drama	Romance	NA
+tt0019802	movie	A dança dos paroxismos	6.7	124	1929	46	NA	NA	NA
+tt0019806	movie	Darkened Rooms	6.7	44	1929	66	Mystery	NA	NA
+tt0019811	movie	Desert Nights	6.7	1195	1929	62	Drama	NA	NA
+tt0019813	movie	The Desert Song	6.7	115	1929	123	Action	Musical	Romance
+tt0019823	movie	Disraeli	6.1	1273	1929	90	Biography	Drama	History
+tt0019833	movie	Drag	6.4	65	1929	85	Drama	NA	NA
+tt0019839	movie	The Duke Steps Out	3.1	212	1929	62	Comedy	Drama	Romance
+tt0019840	movie	The Dummy	7	25	1929	60	Mystery	NA	NA
+tt0019841	movie	The Brandenburg Arch	5.4	9	1929	100	Drama	NA	NA
+tt0019843	movie	Dynamite	6.9	458	1929	129	Comedy	Drama	Romance
+tt0019850	movie	Seduction	7.1	608	1929	85	Drama	Romance	NA
+tt0019856	movie	Evangeline	6.8	163	1929	87	Drama	NA	NA
+tt0019884	movie	Flight	6	341	1929	110	Action	Adventure	Romance
+tt0019888	movie	The Flying Marine	2.6	26	1929	65	Action	Adventure	Drama
+tt0019896	movie	Fox Movietone Follies of 1929	6.6	25	1929	80	Comedy	Musical	Romance
+tt0019901	movie	Woman in the Moon	7.3	3617	1929	156	Adventure	Comedy	Drama
+tt0019909	movie	Miss Else	7.1	169	1929	90	Drama	NA	NA
+tt0019918	movie	Nights of Love	6.4	47	1930	80	Comedy	NA	NA
+tt0019920	movie	Gentlemen of the Press	6.7	103	1929	75	Drama	NA	NA
+tt0019930	movie	The Girl on the Barge	5.8	42	1929	80	Drama	Romance	NA
+tt0019932	movie	Glad Rag Doll	4.9	62	1929	70	Drama	NA	NA
+tt0019933	movie	Glorifying the American Girl	5.8	750	1929	95	Comedy	Drama	Musical
+tt0019936	movie	Gold Diggers of Broadway	7	197	1929	101	Comedy	Musical	NA
+tt0019949	movie	The Greene Murder Case	6.4	415	1929	69	Crime	Mystery	NA
+tt0019952	movie	City Butterfly	7.3	42	1929	102	Drama	NA	NA
+tt0019954	movie	Gun Law	5.6	26	1929	55	Western	NA	NA
+tt0019959	movie	Hallelujah	6.7	1901	1929	109	Drama	Musical	NA
+tt0019964	movie	Hardboiled Rose	6	17	1929	60	Crime	Drama	Romance
+tt0019983	movie	High Voltage	5.3	391	1929	63	Drama	NA	NA
+tt0019986	movie	His Captive Woman	7.2	22	1929	80	Adventure	Crime	Drama
+tt0019987	movie	His First Command	5.6	43	1929	65	Action	Adventure	Comedy
+tt0019988	movie	His Glorious Night	8.4	64	1929	80	Drama	Romance	NA
+tt0019990	movie	The Triumph of the Heart	6.5	37	1929	94	Drama	NA	NA
+tt0019993	movie	The Hollywood Revue of 1929	5.8	2150	1929	130	Comedy	Music	NA
+tt0019996	movie	Hongxia	6.1	81	1929	94	Action	NA	NA
+tt0019997	movie	Honky Tonk	6.6	19	1929	71	Drama	NA	NA
+tt0019999	short	The Hoose-Gow	7	1243	1929	21	Comedy	Short	NA
+tt0020006	movie	Hríchy lásky	7.2	21	1929	73	Drama	NA	NA
+tt0020007	movie	The Hound of the Baskervilles	6.5	248	1929	65	Crime	Horror	Mystery
+tt0020015	movie	Her Skeleton in the Closet	7	9	1929	NA	NA	NA	NA
+tt0020018	movie	In Old Arizona	5.5	1180	1928	95	Music	Western	NA
+tt0020026	movie	Innocents of Paris	7.6	45	1929	78	Musical	Romance	NA
+tt0020030	movie	The Iron Mask	7	1315	1929	95	Adventure	Drama	History
+tt0020034	movie	It's a Great Life	6.1	308	1929	93	Comedy	Musical	Romance
+tt0020052	movie	The Life of an Office Worker	6.1	41	1929	57	Drama	NA	NA
+tt0020056	movie	The Kibitzer	5.2	49	1930	77	Comedy	NA	NA
+tt0020063	movie	Kitty	4	14	1929	95	Drama	Romance	NA
+tt0020072	movie	The Lady Lies	6.7	113	1929	75	Drama	Romance	NA
+tt0020074	movie	Lady of the Pavements	6.8	119	1929	85	Drama	Romance	NA
+tt0020078	movie	The Last Performance	6.7	425	1929	68	Drama	Horror	Romance
+tt0020082	movie	The Laughing Lady	6.5	59	1929	80	Drama	NA	NA
+tt0020087	short	Leaping Love	7.1	15	1929	21	Comedy	Short	NA
+tt0020088	movie	The Leatherneck	5.9	132	1929	65	Drama	NA	NA
+tt0020112	movie	The Love Parade	7	2447	1929	107	Comedy	Musical	Romance
+tt0020113	movie	The Love Racket	6.4	14	1929	74	Crime	Drama	NA
+tt0020124	movie	Ludwig der Zweite, König von Bayern	6.9	53	1930	117	Biography	Drama	History
+tt0020135	movie	The Man I Love	5.7	68	1929	70	Action	Comedy	Drama
+tt0020138	movie	A Man's Man	6.7	56	1929	80	Comedy	NA	NA
+tt0020140	movie	Manolescu - Der König der Hochstapler	7.5	51	1929	124	Drama	NA	NA
+tt0020143	movie	Marianne	6.1	1253	1929	111	Drama	Musical	Romance
+tt0020158	short	Melody of the World	6.9	235	1929	40	Documentary	Short	NA
+tt0020161	short	Men O'War	7.2	1317	1929	20	Comedy	Family	Short
+tt0020163	movie	People on Sunday	7.3	3303	1930	73	Comedy	Drama	Romance
+tt0020165	movie	Saint Joan the Maid	7.5	98	1929	125	Drama	NA	NA
+tt0020187	movie	Mother's Boy	4.8	16	1929	82	Drama	Musical	NA
+tt0020193	movie	Mother Krause's Journey to Happiness	7.4	305	1929	121	Drama	NA	NA
+tt0020197	movie	The Mysterious Dr. Fu Manchu	6.1	334	1929	80	Crime	Romance	Thriller
+tt0020205	movie	Napoleon at St. Helena	6.5	43	1929	100	Drama	NA	NA
+tt0020210	movie	Navy Blues	5.7	563	1929	77	Comedy	Drama	NA
+tt0020217	movie	New York Nights	5.6	241	1929	82	Crime	Drama	Music
+tt0020218	movie	Night Parade	5.7	120	1929	71	Drama	NA	NA
+tt0020227	movie	Nothing But the Truth	6.5	90	1929	78	Action	Comedy	Romance
+tt0020228	movie	The New Gentlemen	6.8	185	1929	135	Comedy	NA	NA
+tt0020230	movie	The New Babylon	7.3	881	1929	120	Drama	History	NA
+tt0020234	movie	Oh, Yeah?	5.4	62	1929	74	Action	Comedy	Drama
+tt0020237	short	The Old Barn	4.3	70	1929	20	Action	Comedy	Short
+tt0020238	movie	On with the Show!	5.8	342	1929	104	Comedy	Musical	Romance
+tt0020241	movie	One Hysterical Night	5	16	1929	75	Comedy	Romance	NA
+tt0020247	movie	Our Modern Maidens	6.2	885	1929	76	Comedy	Drama	NA
+tt0020253	movie	The Pagan	6.8	405	1929	83	Drama	Music	Romance
+tt0020256	movie	Pals of the Prairie	6.9	21	1929	53	Western	NA	NA
+tt0020258	movie	Paris Bound	5.7	137	1929	73	Drama	Romance	NA
+tt0020263	movie	Peach Skin	7.3	63	1929	89	Drama	NA	NA
+tt0020264	short	Perfect Day	7.1	1661	1929	19	Comedy	Short	NA
+tt0020272	movie	The Pirate of Panama	4.4	22	1929	220	Action	Adventure	Drama
+tt0020285	movie	The Power of Evil	4.3	26	1928	62	Drama	NA	NA
+tt0020286	movie	A Throw of Dice	6.5	939	1929	74	Adventure	Drama	Romance
+tt0020293	movie	Prividenie, kotoroe ne vozvrashchaetsya	6.7	253	1930	67	Drama	NA	NA
+tt0020297	movie	Latin Quarter	7	11	1929	100	Drama	Romance	NA
+tt0020298	movie	Queen Kelly	7.1	3292	1932	101	Drama	NA	NA
+tt0020306	short	Radio Rhythm	5.8	30	1929	9	Music	Short	NA
+tt0020308	movie	The Rainbow Man	6.5	16	1929	96	Comedy	Drama	Musical
+tt0020315	movie	Red Hot Rhythm	6.6	16	1929	75	Comedy	Crime	Drama
+tt0020321	short	Rain	7.1	1786	1929	14	Documentary	Short	NA
+tt0020323	movie	The Rescue	7.1	33	1929	96	Adventure	Romance	NA
+tt0020324	movie	The Return of Sherlock Holmes	4.6	53	1929	71	Mystery	NA	NA
+tt0020328	movie	Rich People	6.9	14	1929	75	Music	Romance	NA
+tt0020332	movie	Rio Rita	6	743	1929	140	Comedy	Music	Musical
+tt0020335	movie	The River	7.3	623	1928	84	Drama	Romance	NA
+tt0020336	movie	Chasing Rainbows	5.9	256	1930	96	Comedy	Drama	Musical
+tt0020337	movie	The Rocket Bus	7	15	1929	65	Comedy	Fantasy	NA
+tt0020344	movie	Rails	6.8	135	1929	91	Drama	NA	NA
+tt0020357	movie	Salamander	7	32	1928	90	Action	Drama	Thriller
+tt0020358	movie	Sally	6.1	393	1929	103	Musical	NA	NA
+tt0020371	movie	The Ship of Lost Men	6.5	125	1929	121	Drama	Thriller	NA
+tt0020388	movie	Seven Keys to Baldpate	6.1	374	1929	72	Comedy	Mystery	Thriller
+tt0020404	movie	Side Street	5.4	103	1929	74	Action	Crime	Drama
+tt0020405	movie	The Silent Enemy	7	254	1930	84	Drama	NA	NA
+tt0020421	movie	Smiling Irish Eyes	4.1	53	1929	90	Drama	Music	Romance
+tt0020423	movie	Smoke Bellew	7.1	18	1929	65	Western	NA	NA
+tt0020425	movie	So This Is College	5.4	271	1929	98	Comedy	Drama	Romance
+tt0020430	movie	The Somnambulist	4.4	19	1929	NA	Horror	NA	NA
+tt0020436	movie	The Sophomore	5.7	46	1929	73	Comedy	Romance	NA
+tt0020438	movie	Speakeasy	4.9	78	1929	62	Crime	Drama	Romance
+tt0020442	movie	Spite Marriage	7	2298	1929	76	Comedy	NA	NA
+tt0020444	movie	Sprengbagger 1010	6.8	53	1929	89	Drama	NA	NA
+tt0020449	movie	Stark Mad	2.5	25	1929	70	Mystery	NA	NA
+tt0020450	movie	Den starkaste	6.9	84	1929	106	Drama	NA	NA
+tt0020451	movie	Old and New	7.2	1607	1929	121	Drama	NA	NA
+tt0020456	movie	Strange Cargo	7.9	41	1929	75	Mystery	NA	NA
+tt0020458	movie	Street Girl	6.2	435	1929	87	Drama	Musical	Romance
+tt0020461	movie	The Studio Murder Mystery	5.4	176	1929	62	Adventure	Crime	Mystery
+tt0020466	movie	Sunny Side Up	6.6	434	1929	121	Comedy	Musical	NA
+tt0020471	movie	Synthetic Sin	7.5	51	1929	72	Comedy	NA	NA
+tt0020475	movie	Diary of a Lost Girl	7.8	4591	1929	104	Drama	Music	NA
+tt0020476	movie	Treasure Mountain	4.5	44	1929	67	Comedy	Drama	NA
+tt0020479	movie	The Taming of the Shrew	6.2	603	1929	63	Comedy	Romance	NA
+tt0020481	movie	Tarzan the Tiger	5.4	139	1929	266	Action	Adventure	NA
+tt0020488	movie	Their Own Desire	5.8	713	1929	65	Drama	Romance	NA
+tt0020489	short	They Go Boom!	7.2	1165	1929	21	Comedy	Short	NA
+tt0020490	movie	They Had to See Paris	5.8	184	1929	95	Comedy	Music	Romance
+tt0020492	movie	The Thirteenth Chair	5.7	687	1929	72	Drama	Mystery	NA
+tt0020494	movie	This Thing Called Love	7.1	32	1929	72	Comedy	Music	Romance
+tt0020497	movie	Thru Different Eyes	5.9	70	1929	62	Drama	NA	NA
+tt0020498	movie	Thunder	6.9	45	1929	86	Action	Drama	Romance
+tt0020499	movie	Thunderbolt	6.5	759	1929	85	Crime	Drama	Film-Noir
+tt0020503	movie	Tiger Rose	6.3	28	1929	63	Action	Drama	Music
+tt0020508	movie	Tokai kokyogaku	7.8	12	1929	70	NA	NA	NA
+tt0020509	short	A Straightforward Boy	6.3	584	1929	38	Comedy	Short	NA
+tt0020510	movie	Tôkyô kôshinkyoku	6.6	322	1929	101	Drama	NA	NA
+tt0020519	movie	The Three Masks	4.2	10	1929	NA	NA	NA	NA
+tt0020523	movie	Turksib	7.2	437	1929	57	Documentary	NA	NA
+tt0020530	short	Un chien andalou	7.7	51289	1929	16	Fantasy	Horror	Short
+tt0020531	short	Unaccustomed As We Are	7	1271	1929	21	Comedy	Short	NA
+tt0020538	movie	Untamed	5.4	645	1929	86	Drama	NA	NA
+tt0020546	movie	Vénus	6.9	14	1929	100	Comedy	Romance	NA
+tt0020560	movie	The Voice of the City	5.9	86	1929	81	Crime	Drama	Romance
+tt0020563	movie	Days of Youth	6.4	575	1929	103	Comedy	NA	NA
+tt0020566	short	Fighting Friends	6.1	308	1929	14	Comedy	Short	NA
+tt0020568	movie	Week-End Wives	7.8	15	1929	86	Comedy	NA	NA
+tt0020570	movie	White Hell of Pitz Palu	7.3	1045	1929	150	Action	Adventure	Drama
+tt0020572	movie	Welcome Danger	5.9	782	1929	113	Comedy	NA	NA
+tt0020581	movie	Where East Is East	6.6	668	1929	65	Drama	Romance	Thriller
+tt0020586	movie	Why Bring That Up?	6	20	1929	82	Comedy	Drama	Musical
+tt0020590	movie	The Wild Party	6.3	509	1929	77	Drama	Romance	NA
+tt0020595	movie	Wolf Song	6.5	127	1929	80	Drama	Western	NA
+tt0020596	movie	The Wolf of Wall Street	6.6	53	1929	90	Drama	NA	NA
+tt0020599	movie	Woman Trap	5.7	76	1929	82	Action	Crime	Drama
+tt0020608	movie	The Wonderful Lies of Nina Petrovna	7.2	265	1929	102	Drama	NA	NA
+tt0020613	movie	The Younger Generation	6.4	320	1929	75	Drama	Romance	NA
+tt0020621	movie	Abschied	6.7	163	1930	73	Comedy	Drama	NA
+tt0020628	movie	Alias French Gertie	6.1	122	1930	66	Crime	NA	NA
+tt0020629	movie	All Quiet on the Western Front	8.1	64533	1930	152	Drama	War	NA
+tt0020640	movie	Animal Crackers	7.4	14767	1930	97	Comedy	Family	Musical
+tt0020641	movie	Anna Christie	6.6	3291	1930	89	Drama	Romance	NA
+tt0020645	movie	Anybody's Woman	6.6	138	1930	80	Drama	Romance	NA
+tt0020646	movie	The Apache Kid's Escape	4.2	112	1930	61	Western	NA	NA
+tt0020649	movie	The Arizona Kid	5.9	90	1930	88	Music	Mystery	Romance
+tt0020652	movie	The Luck Which Touched the Leg	5.1	45	1930	74	Drama	NA	NA
+tt0020655	movie	Atlantis	6.2	32	1930	NA	Drama	NA	NA
+tt0020656	movie	Ladies' Paradise	7.3	529	1930	85	Drama	Romance	NA
+tt0020663	movie	The Bad One	6.6	37	1930	70	Romance	Thriller	NA
+tt0020668	movie	The Bat Whispers	6.3	1070	1930	83	Crime	Drama	Horror
+tt0020673	movie	Beau Ideal	5	237	1931	79	Adventure	Romance	War
+tt0020678	short	Below Zero	7.2	1804	1930	20	Comedy	Family	Short
+tt0020686	movie	The Big House	7.1	2363	1930	87	Crime	Drama	Thriller
+tt0020688	movie	Big Money	6	19	1930	80	Drama	Romance	NA
+tt0020691	movie	The Big Trail	7.1	4023	1930	125	Adventure	Romance	Western
+tt0020693	movie	Billy the Kid	6	435	1930	98	Drama	Music	Western
+tt0020695	movie	The Bishop Murder Case	6	769	1929	88	Crime	Drama	Mystery
+tt0020697	movie	The Blue Angel	7.7	15526	1930	104	Drama	Music	NA
+tt0020698	short	Blotto	7.4	1723	1930	26	Comedy	Short	NA
+tt0020707	movie	Fire in the Opera House	6.7	27	1930	104	Drama	NA	NA
+tt0020708	short	Brats	7.3	2159	1930	21	Comedy	Family	Short
+tt0020724	movie	Call of the Flesh	5.5	212	1930	100	Musical	Romance	NA
+tt0020727	movie	Murder for Sale	6.6	98	1930	102	Comedy	Musical	NA
+tt0020754	movie	Charley's Aunt	5.7	141	1930	88	Comedy	NA	NA
+tt0020768	movie	City Girl	7.7	3442	1930	77	Drama	Romance	NA
+tt0020775	short	The Bearded Heart	6.6	7	1930	NA	Short	NA	NA
+tt0020792	movie	The Costello Case	6.7	31	1930	65	Crime	Drama	NA
+tt0020809	movie	Dangerous Nan McGrew	4.8	75	1930	73	Comedy	Romance	Western
+tt0020815	movie	The Dawn Patrol	7.1	1908	1930	108	Action	Drama	War
+tt0020816	movie	The Dawn Trail	6	38	1930	66	Western	NA	NA
+tt0020821	movie	The Devil to Pay!	6.6	758	1930	72	Comedy	Romance	NA
+tt0020824	movie	Fair People	7.2	22	1930	98	Comedy	NA	NA
+tt0020826	movie	Divorce Among Friends	5.7	24	1930	65	Comedy	NA	NA
+tt0020828	movie	Dixiana	5.2	401	1930	100	Comedy	Drama	Music
+tt0020838	movie	Doughboys	5.7	491	1930	79	Comedy	Romance	War
+tt0020842	movie	Three from the Filling Station	6.5	843	1930	99	Comedy	Musical	Romance
+tt0020852	movie	Elstree Calling	5	496	1930	86	Comedy	Musical	NA
+tt0020857	short	The Revengeful Spirit of Eros	5.3	28	1930	28	Drama	Short	NA
+tt0020869	movie	The Fall Guy	5.2	195	1930	66	Comedy	Crime	Drama
+tt0020873	movie	Fast and Loose	6.2	268	1930	70	Comedy	Romance	NA
+tt0020882	movie	The Fighting Legion	5.5	43	1930	74	Western	NA	NA
+tt0020883	short	The Fighting Parson	5.9	65	1930	20	Comedy	Short	Western
+tt0020891	movie	The Florodora Girl	6.1	1352	1930	79	Drama	Musical	Mystery
+tt0020896	movie	For the Defense	6.4	548	1930	65	Crime	Drama	Romance
+tt0020900	movie	Framed	6.1	260	1930	65	Action	Crime	Drama
+tt0020902	movie	Free and Easy	5.5	927	1930	92	Comedy	Musical	NA
+tt0020911	movie	Fujiwara Yoshie no furusato	5.7	76	1930	107	Drama	Romance	NA
+tt0020917	movie	The Stolen Face	6.2	10	1930	84	Crime	Drama	NA
+tt0020919	movie	The Girl Said No	5.3	851	1930	93	Comedy	Romance	NA
+tt0020924	movie	Going Wild	5.7	207	1930	68	Comedy	NA	NA
+tt0020926	movie	Golden Dawn	4.5	162	1930	81	Comedy	Drama	Music
+tt0020945	movie	Half Shot at Sunrise	6	371	1930	78	Comedy	Musical	NA
+tt0020956	movie	Heads Up	5.5	69	1930	76	Comedy	Musical	Romance
+tt0020960	movie	Hell's Angels	7.3	5594	1930	127	Drama	War	NA
+tt0020963	movie	Hello Sister	6.6	30	1930	80	Drama	NA	NA
+tt0020977	movie	Hit the Deck	7.6	24	1929	103	Comedy	Musical	Romance
+tt0020979	short	Hog Wild	7.5	2097	1930	19	Comedy	Family	Short
+tt0020980	movie	Walk Cheerfully	6.4	692	1930	95	Crime	Drama	Romance
+tt0020982	movie	Hocuspocus	7.6	49	1930	83	Comedy	Crime	NA
+tt0020985	movie	Holiday	6.3	587	1930	91	Comedy	Drama	NA
+tt0020997	movie	In Gay Madrid	5.2	97	1930	82	Drama	Musical	Romance
+tt0021013	movie	Journey's End	7	344	1930	120	Drama	War	NA
+tt0021014	movie	Junjô	5.8	9	1930	46	Drama	NA	NA
+tt0021016	movie	Just Imagine	5.4	794	1930	113	Comedy	Fantasy	Musical
+tt0021019	movie	Das Kabinett des Dr. Larifari	6.6	33	1930	78	Comedy	NA	NA
+tt0021024	movie	Introduction to Marriage	6.4	41	1930	71	Comedy	NA	NA
+tt0021025	movie	King of Jazz	6.7	1465	1930	99	Animation	Comedy	Musical
+tt0021029	movie	Kismet	6	78	1930	90	Adventure	Fantasy	Musical
+tt0021035	movie	Suburban Districts	6.2	10	1930	60	NA	NA	NA
+tt0021039	movie	Ladies in Love	5.1	51	1930	65	Comedy	NA	NA
+tt0021040	movie	Ladies of Leisure	6.7	1286	1930	99	Drama	Romance	NA
+tt0021041	movie	A Lady Surrenders	6.9	36	1930	102	Drama	Romance	NA
+tt0021042	movie	The Lady of Scandal	5.8	227	1930	76	Comedy	Drama	Romance
+tt0021046	movie	The Land of Missing Men	5.9	56	1930	55	Western	NA	NA
+tt0021048	movie	The Lash	5.3	161	1930	77	Drama	Romance	Western
+tt0021055	movie	The Santa Fe Trail	5.2	23	1930	65	Action	Comedy	Drama
+tt0021057	movie	Leathernecking	7	44	1930	79	Comedy	Musical	Romance
+tt0021061	movie	Let's Go Native	5.8	156	1930	77	Comedy	Musical	Romance
+tt0021064	movie	Thirteen Men and a Girl	6.4	30	1930	79	Drama	NA	NA
+tt0021068	movie	The Song Is Ended	7.5	71	1930	102	Musical	Romance	NA
+tt0021069	movie	The Life of the Party	5.3	201	1930	79	Comedy	Musical	NA
+tt0021070	movie	The Light of Western Stars	5.3	166	1930	70	Action	Adventure	Drama
+tt0021078	movie	Little Accident	5.3	39	1930	82	Comedy	NA	NA
+tt0021082	movie	Bookkeeper Kremke	7	32	1930	67	Drama	NA	NA
+tt0021092	movie	The Pay-Off	5.5	288	1930	70	Action	Crime	Drama
+tt0021097	movie	Love Comes Along	6.6	54	1930	77	Drama	NA	NA
+tt0021102	movie	Lovin' the Ladies	6.3	147	1930	65	Comedy	Music	Romance
+tt0021106	movie	Madam Satan	6.4	1128	1930	116	Comedy	Drama	Musical
+tt0021109	movie	Mamba	5.9	88	1930	78	Drama	NA	NA
+tt0021114	movie	Man Trouble	5.5	27	1930	85	Crime	Drama	Music
+tt0021118	movie	Man to Man	6	156	1930	68	Crime	Drama	Romance
+tt0021125	movie	Maria do Mar	6.8	110	1930	94	Drama	Romance	NA
+tt0021133	movie	Maybe It's Love	5	320	1930	72	Comedy	Music	Romance
+tt0021139	movie	Men Without Law	5.4	35	1930	65	War	Western	NA
+tt0021155	movie	The Shot in the Talker Studio	5.6	59	1930	73	Thriller	NA	NA
+tt0021165	movie	Murder!	6.3	6580	1930	104	Crime	Mystery	Thriller
+tt0021177	movie	Nerone	7.1	42	1930	78	Comedy	NA	NA
+tt0021178	movie	New Moon	5.9	196	1930	78	Drama	Music	Musical
+tt0021182	short	Night Owls	7.5	1675	1930	21	Comedy	Short	NA
+tt0021185	movie	No, No, Nanette	6.1	38	1930	98	Comedy	Musical	NA
+tt0021189	movie	Not So Dumb	5.8	1124	1930	76	Comedy	Romance	NA
+tt0021191	movie	A Notorious Affair	5.3	304	1930	69	Drama	Romance	NA
+tt0021198	movie	Officer O'Brien	5	58	1930	72	Comedy	Crime	Drama
+tt0021201	movie	Young Lady	4	53	1930	135	Comedy	NA	NA
+tt0021203	movie	Old English	5.6	109	1930	85	Drama	NA	NA
+tt0021207	movie	On Your Back	5.7	16	1930	70	Drama	NA	NA
+tt0021217	movie	One Romantic Night	5.6	449	1930	73	Comedy	Romance	NA
+tt0021221	short	Oshikiri shinkonki	4.7	12	1930	37	Drama	Short	NA
+tt0021228	movie	Paid	6.3	781	1930	86	Crime	Drama	Romance
+tt0021232	movie	Paramount on Parade	5.8	336	1930	102	Comedy	Music	NA
+tt0021234	movie	Le parfum de la dame en noir	6.5	98	1931	109	Crime	Drama	NA
+tt0021237	movie	May I Come In	6.6	47	1930	72	Comedy	Romance	Sport
+tt0021240	movie	Passion Flower	6	387	1930	79	Drama	NA	NA
+tt0021247	movie	Little Lise	7.2	216	1930	84	Drama	NA	NA
+tt0021248	movie	Phantom of the Desert	6.5	24	1930	58	Western	NA	NA
+tt0021249	movie	The Phantom of the West	6	68	1930	172	Western	NA	NA
+tt0021263	movie	Playing Around	5.8	310	1930	66	Comedy	Drama	Music
+tt0021268	movie	Holiday of St. Jorgen	7.4	250	1930	83	Comedy	NA	NA
+tt0021273	movie	Beauty Prize	6.9	638	1930	93	Drama	Music	Romance
+tt0021276	movie	Puttin' on the Ritz	5.5	171	1930	88	Music	Romance	NA
+tt0021277	movie	Five Brides	7.1	30	1930	57	Drama	NA	NA
+tt0021279	movie	Queen High	6.1	129	1930	85	Comedy	Musical	NA
+tt0021283	movie	I Flunked, But...	6.3	501	1930	65	Comedy	Drama	NA
+tt0021287	movie	Reaching for the Moon	5.5	454	1930	91	Comedy	Romance	NA
+tt0021297	movie	The Return of Dr. Fu Manchu	5.8	263	1930	73	Adventure	Crime	Mystery
+tt0021307	movie	The Rogue Song	5.6	193	1930	104	Musical	Romance	NA
+tt0021309	movie	The Story of the Fox	7.7	1415	1937	63	Adventure	Animation	Comedy
+tt0021310	movie	Romance	5.8	951	1930	76	Drama	Romance	NA
+tt0021312	short	Sentimental Romance	6.5	622	1930	20	Comedy	Short	NA
+tt0021319	movie	Rough Romance	5.5	113	1930	55	Adventure	Western	NA
+tt0021321	movie	The Road Is Fine	4.6	20	1929	NA	Drama	Musical	NA
+tt0021323	movie	A Royal Romance	6.5	17	1930	66	Comedy	Drama	Romance
+tt0021327	movie	Safety in Numbers	5.4	139	1930	80	Comedy	Music	Romance
+tt0021331	movie	The Blood of a Poet	7.3	6977	1932	55	Fantasy	NA	NA
+tt0021334	movie	The Sap from Syracuse	5.9	107	1930	68	Comedy	Musical	Romance
+tt0021342	movie	Scotland Yard	5.3	79	1930	75	Crime	Drama	Romance
+tt0021349	movie	Second Honeymoon	4.7	36	1930	76	Comedy	Drama	Romance
+tt0021358	movie	Shadow Ranch	6.8	68	1930	64	Drama	Western	NA
+tt0021359	movie	Shadow of the Law	6.3	142	1930	69	Crime	Drama	Mystery
+tt0021374	movie	The Silver Horde	5.8	580	1930	75	Drama	Romance	NA
+tt0021375	movie	Enthusiasm	6.8	966	1930	67	Documentary	NA	NA
+tt0021382	movie	The Sins of the Children	6.2	266	1930	67	Drama	Romance	NA
+tt0021392	movie	Usinatlo	4	30	1930	60	Drama	NA	NA
+tt0021394	movie	So Long Letty	6.1	188	1929	64	Comedy	Musical	NA
+tt0021401	movie	Song o' My Heart	5.2	191	1930	85	Drama	Music	Romance
+tt0021404	movie	The Song of the Flame	5.2	54	1930	96	Musical	Romance	NA
+tt0021406	movie	That Night's Wife	6.9	878	1930	65	Crime	Drama	NA
+tt0021409	movie	Under the Roofs of Paris	7.1	2380	1930	96	Comedy	Drama	Musical
+tt0021430	movie	Eine Stunde Glück	6.2	16	1931	82	Drama	Musical	NA
+tt0021451	movie	Sein Liebeslied	6.2	14	1930	102	Musical	NA	NA
+tt0021456	short	Teacher's Pet	7.9	304	1930	20	Comedy	Family	Short
+tt0021469	movie	The Thoroughbred	4.1	32	1930	57	Drama	NA	NA
+tt0021476	movie	And Quiet Flows the Don	7.3	111	1930	75	Drama	NA	NA
+tt0021492	movie	True to the Navy	6.3	147	1930	71	Action	Comedy	Romance
+tt0021498	movie	Ulla, My Ulla	4.6	6	1930	75	Drama	NA	NA
+tt0021503	movie	Under a Texas Moon	5.1	96	1930	82	Adventure	Comedy	Music
+tt0021505	movie	The Unholy Three	6.7	1326	1930	72	Crime	Drama	Romance
+tt0021506	movie	Der unsterbliche Lump	6.1	13	1930	97	Drama	NA	NA
+tt0021508	movie	Up the River	5.9	1292	1930	92	Comedy	Crime	Drama
+tt0021511	movie	The Vagabond King	5.4	203	1930	104	Drama	Musical	Romance
+tt0021514	movie	Vsadniki vetra	7	12	1930	NA	Comedy	Drama	NA
+tt0021532	movie	A Warm Corner	6.6	62	1930	104	Comedy	Romance	NA
+tt0021538	movie	Road to Rio	7.1	17	1931	82	Crime	Drama	NA
+tt0021539	movie	The White Devil	7.3	98	1930	110	Drama	NA	NA
+tt0021542	movie	Westfront 1918	7.4	2224	1930	75	Drama	Romance	War
+tt0021549	movie	Whoopee!	6.4	1089	1930	93	Comedy	Musical	Romance
+tt0021551	movie	The Widow from Chicago	6.4	419	1930	64	Crime	Drama	Romance
+tt0021571	movie	Earth	7.2	6016	1930	75	Drama	NA	NA
+tt0021573	movie	Zwei Krawatten	6.4	13	1930	88	Comedy	Musical	NA
+tt0021576	short	À Propos de Nice	7.4	4392	1930	24	Comedy	Documentary	Short
+tt0021577	movie	L'Age d'Or	7.2	14254	1930	60	Comedy	Drama	NA
+tt0021594	movie	The Light of the World	7.3	135	1931	124	Drama	Fantasy	NA
+tt0021605	movie	The Lovers of Midnight	6.5	63	1931	109	Crime	Drama	Romance
+tt0021607	movie	An American Tragedy	6.5	866	1931	96	Crime	Drama	Romance
+tt0021609	movie	Die andere Seite	7	78	1931	107	Drama	War	NA
+tt0021616	movie	Ariane	6.8	72	1931	85	Drama	Romance	NA
+tt0021619	movie	Poor as a Church Mouse	6.6	24	1931	101	Comedy	Musical	Romance
+tt0021622	movie	Arrowsmith	6.1	1808	1931	108	Drama	NA	NA
+tt0021630	movie	The Avenger	5.8	68	1931	72	Western	NA	NA
+tt0021636	movie	Bad Sister	6.2	1385	1931	68	Drama	NA	NA
+tt0021644	short	Be Big!	6.8	1461	1931	28	Comedy	Family	Short
+tt0021653	movie	Mountains on Fire	6.8	139	1931	109	Drama	War	NA
+tt0021662	movie	The Sorrow of the Beautiful Woman	5	46	1931	158	Drama	NA	NA
+tt0021671	movie	Black and White	5.5	122	1931	106	Comedy	NA	NA
+tt0021673	movie	Blonde Crazy	7.1	2146	1931	79	Comedy	Crime	Drama
+tt0021683	movie	Border Law	5.9	108	1931	63	Western	NA	NA
+tt0021693	movie	Branded	6	76	1931	61	Western	NA	NA
+tt0021708	movie	Bachelor's Folly	6.4	12	1931	80	Drama	NA	NA
+tt0021732	movie	Chances	6.3	264	1931	72	Drama	Romance	War
+tt0021738	short	Chickens Come Home	7.4	1596	1931	30	Comedy	Family	Short
+tt0021739	movie	La Chienne	7.5	4540	1931	91	Crime	Drama	NA
+tt0021746	movie	Cimarron	5.8	6428	1931	123	Drama	Music	Western
+tt0021749	movie	City Lights	8.5	186872	1931	87	Comedy	Drama	Romance
+tt0021750	movie	City Streets	7	1731	1931	83	Crime	Drama	Film-Noir
+tt0021755	short	Come Clean	7.2	1298	1931	18	Comedy	Short	NA
+tt0021759	movie	A Connecticut Yankee	6.4	410	1931	95	Comedy	Family	Fantasy
+tt0021761	movie	Consolation Marriage	6	488	1931	81	Drama	NA	NA
+tt0021768	movie	Cracked Nuts	6	377	1931	65	Comedy	Musical	Romance
+tt0021772	movie	The Cuban Love Song	5.5	216	1931	86	Musical	Romance	NA
+tt0021789	movie	The Deadline	5.2	43	1931	65	Western	NA	NA
+tt0021795	movie	Desert Vengeance	6.4	46	1931	65	Western	NA	NA
+tt0021799	movie	Dirigible	6.3	670	1931	100	Adventure	NA	NA
+tt0021807	movie	Don't Bet on Women	6.2	163	1931	70	Comedy	Romance	NA
+tt0021810	short	Labor on the Douro River	7.2	742	1931	20	Documentary	Short	NA
+tt0021814	movie	Dracula	7.4	54501	1931	75	Drama	Fantasy	Horror
+tt0021817	movie	Three Days of Love	6.7	13	1931	101	Drama	NA	NA
+tt0021818	movie	The 3 Penny Opera	7.3	2351	1931	112	Comedy	Crime	Drama
+tt0021826	movie	East Lynne	5.9	273	1931	102	Drama	Romance	NA
+tt0021828	movie	East of Borneo	5.6	231	1931	77	Adventure	Horror	Romance
+tt0021844	movie	The Exile	4.7	169	1931	93	Crime	Drama	Romance
+tt0021848	movie	The Wrong Millionaire	5.2	53	1931	90	Comedy	NA	NA
+tt0021850	movie	Fanny Foley Herself	6.6	15	1931	75	Comedy	Drama	NA
+tt0021863	movie	The Fighting Sheriff	5.8	39	1931	67	Western	NA	NA
+tt0021864	movie	End of the World	6.1	315	1931	105	Drama	Sci-Fi	NA
+tt0021873	movie	Five Star Final	7.3	2278	1931	89	Crime	Drama	Music
+tt0021884	movie	Frankenstein	7.8	74943	1931	70	Drama	Horror	Sci-Fi
+tt0021885	movie	A Free Soul	6.6	2739	1931	93	Crime	Drama	Romance
+tt0021918	movie	Gold Dust Gertie	5.7	145	1931	65	Adventure	Comedy	Music
+tt0021925	movie	Gosudarstvennyy chinovnik	6.1	15	1931	71	Comedy	NA	NA
+tt0021933	movie	Guilty Hands	6.8	931	1931	69	Crime	Drama	NA
+tt0021969	movie	Honor Among Lovers	6.7	353	1931	75	Drama	Romance	NA
+tt0021982	movie	The Hurricane Horseman	4.5	38	1931	50	Western	NA	NA
+tt0021985	movie	Hyppolit, the Butler	7.7	1651	1931	72	Comedy	NA	NA
+tt0021994	movie	Mabuta no haha	6.5	12	1938	84	Action	Drama	NA
+tt0022017	movie	Comradeship	7.5	1614	1931	93	Drama	NA	NA
+tt0022033	movie	The Greatest Man in the World	6.6	23	1932	84	Comedy	Drama	NA
+tt0022034	movie	Congress Dances	7	561	1931	85	Comedy	History	Musical
+tt0022036	short	Flunky, Work Hard!	6.7	487	1931	29	Comedy	Drama	Short
+tt0022048	movie	The Lady and the Beard	6.4	458	1931	75	Comedy	Romance	NA
+tt0022058	short	Laughing Gravy	7.3	1805	1930	21	Comedy	Family	Short
+tt0022060	movie	Law of the Rio Grande	5.4	86	1931	57	Western	NA	NA
+tt0022065	movie	The Thaw	6.8	87	1931	65	Drama	NA	NA
+tt0022074	movie	The Smiling Lieutenant	7.2	3881	1931	93	Comedy	Musical	Romance
+tt0022080	movie	Limit	7.1	2546	1931	114	Drama	Romance	NA
+tt0022092	movie	The Love Storm	7	61	1931	86	Drama	NA	NA
+tt0022100	movie	M	8.3	160151	1931	117	Crime	Mystery	Thriller
+tt0022105	movie	The Neighbor's Wife and Mine	6.3	260	1931	64	Comedy	Drama	NA
+tt0022117	movie	The Man in Possession	7.1	317	1931	84	Comedy	NA	NA
+tt0022134	movie	Arizona	5.7	317	1931	70	Drama	Romance	NA
+tt0022136	movie	Trapped in a Submarine	6.1	27	1932	63	Action	Adventure	Drama
+tt0022139	movie	Men with Wings	6.3	174	1938	105	Action	Drama	Romance
+tt0022140	movie	Menschen hinter Gittern	7	20	1931	109	Drama	NA	NA
+tt0022150	movie	Le Million	7.4	3655	1931	91	Comedy	Musical	NA
+tt0022172	movie	Murder at Midnight	5.4	437	1931	69	Crime	Mystery	NA
+tt0022173	movie	Murder by the Clock	6.2	353	1931	76	Crime	Horror	Mystery
+tt0022188	movie	Die Nacht ohne Pause	7.6	8	1931	87	NA	NA	NA
+tt0022201	movie	Newly Rich	6.1	70	1931	77	Comedy	NA	NA
+tt0022208	movie	Night Nurse	7	4009	1931	72	Comedy	Crime	Drama
+tt0022214	movie	Oatsurae Jirôkichi kôshi	6.9	147	1931	80	Action	Drama	NA
+tt0022216	movie	Fire	7.8	16	1931	NA	NA	NA	NA
+tt0022223	movie	Baby's Laxative	6	480	1931	46	Comedy	NA	NA
+tt0022227	short	One Good Turn	7.1	1590	1931	20	Comedy	Short	NA
+tt0022233	movie	The One Way Trail	5.8	39	1931	60	Western	NA	NA
+tt0022235	movie	The Threepenny Opera	6.9	229	1931	104	Comedy	Crime	Musical
+tt0022238	short	Our Wife	7.3	1452	1931	21	Comedy	Family	Short
+tt0022243	movie	The Painted Desert	5.1	751	1931	79	Western	NA	NA
+tt0022251	movie	Pardon Us	6.8	2661	1931	56	Comedy	Crime	Drama
+tt0022254	movie	Parlor, Bedroom and Bath	6.1	938	1931	73	Comedy	NA	NA
+tt0022273	movie	Politics	6.3	286	1931	73	Comedy	Romance	NA
+tt0022276	movie	Possessed	6.9	2158	1931	76	Drama	Romance	NA
+tt0022279	movie	Private Lives	6.7	1261	1931	84	Comedy	Drama	Romance
+tt0022280	movie	Die Privatsekretärin	7	14	1931	100	Comedy	NA	NA
+tt0022283	movie	The Prodigal	5.4	97	1931	76	Musical	Romance	NA
+tt0022284	movie	Præsten i Vejlby	5.7	51	1931	101	Drama	NA	NA
+tt0022286	movie	The Public Enemy	7.6	21778	1931	83	Crime	Drama	NA
+tt0022289	movie	Road to Life	6.9	440	1931	119	Crime	Drama	NA
+tt0022293	movie	The Range Feud	5.6	450	1931	64	Drama	Mystery	Western
+tt0022307	movie	Resurrection	6.6	19	1931	81	Drama	NA	NA
+tt0022310	movie	Rider of the Plains	6	23	1931	57	Western	NA	NA
+tt0022316	movie	The Ridin' Fool	7.1	23	1931	58	Western	NA	NA
+tt0022321	movie	The Road to Singapore	6.4	372	1931	69	Drama	Romance	NA
+tt0022357	movie	The Secret 6	6.3	916	1931	83	Crime	Drama	NA
+tt0022359	movie	Secrets of a Secretary	6.3	130	1931	71	Drama	NA	NA
+tt0022370	movie	The She-Wolf	7.1	26	1931	85	Drama	NA	NA
+tt0022373	movie	Sherlock Holmes' Fatal Hour	5.8	431	1931	84	Crime	Mystery	NA
+tt0022379	movie	Shotgun Pass	4.3	24	1931	58	Western	NA	NA
+tt0022395	movie	The Skin Game	5.7	3332	1931	85	Drama	NA	NA
+tt0022397	movie	Skippy	6.3	855	1931	85	Comedy	Drama	Family
+tt0022402	short	The Stolen Jools	5.8	1111	1931	20	Comedy	Short	NA
+tt0022405	short	Smile, Darn Ya, Smile!	5.6	662	1931	7	Animation	Comedy	Family
+tt0022408	movie	Alone	4.2	14	1931	79	Drama	NA	NA
+tt0022412	movie	Son of India	6	204	1931	73	Drama	Romance	NA
+tt0022422	movie	The Spirit of Notre Dame	5.1	94	1931	80	Drama	Sport	NA
+tt0022428	movie	The Squaw Man	6.3	399	1931	107	Drama	Western	NA
+tt0022432	movie	Stepping Out	5.6	174	1931	73	Comedy	Romance	NA
+tt0022434	movie	Den store barnedåpen	5.9	93	1931	104	Comedy	Drama	NA
+tt0022435	movie	Strangers May Kiss	5.9	500	1931	81	Drama	Romance	NA
+tt0022436	movie	Street Scene	7.6	1862	1931	80	Drama	Romance	NA
+tt0022440	movie	The Struggle	6	353	1931	87	Drama	NA	NA
+tt0022444	movie	Storm Over Mont Blanc	6.2	256	1930	93	Adventure	Drama	NA
+tt0022453	movie	Susan Lenox (Her Fall and Rise)	6.3	1268	1931	76	Drama	Romance	NA
+tt0022458	movie	Tabu: A Story of the South Seas	7.4	6069	1931	86	Adventure	Drama	Romance
+tt0022462	short	Taris	6.7	2382	1931	10	Documentary	Short	Sport
+tt0022468	movie	The Battle of Gallipoli	6.3	76	1931	80	Drama	War	NA
+tt0022469	movie	Ten Cents a Dance	6.5	828	1931	75	Crime	Drama	Romance
+tt0022472	short	The Terror of Batignolles	6.4	77	1931	15	Comedy	Crime	Short
+tt0022473	movie	The Texas Ranger	6.2	25	1931	61	Western	NA	NA
+tt0022485	movie	Tokyo Chorus	7.2	1455	1931	90	Comedy	Drama	NA
+tt0022486	movie	Tommi	6.2	24	1931	63	Drama	NA	NA
+tt0022489	movie	Tonight or Never	6.6	1504	1931	80	Comedy	Romance	NA
+tt0022495	movie	Trader Horn	6.2	1040	1931	122	Action	Adventure	Drama
+tt0022514	movie	The Two Gun Man	5.8	81	1931	58	Western	NA	NA
+tt0022531	movie	The Vanishing Legion	6.7	90	1931	220	Adventure	Western	NA
+tt0022535	movie	The Company's in Love	6.1	134	1932	73	Comedy	NA	NA
+tt0022537	movie	The Viking	6	178	1931	70	Adventure	Drama	Romance
+tt0022552	movie	White Ecstasy	5.8	122	1931	70	Comedy	NA	NA
+tt0022553	movie	Wer nimmt die Liebe ernst...?	7.1	49	1931	91	Comedy	Romance	NA
+tt0022562	movie	Wild Horse	5.8	110	1931	77	Western	NA	NA
+tt0022569	movie	The Woman Between	5.4	144	1931	73	Drama	NA	NA
+tt0022589	movie	Young Donovan's Kid	5.4	22	1931	77	Crime	Drama	NA
+tt0022594	movie	The Squeeker	5.7	117	1931	64	Drama	NA	NA
+tt0022595	movie	Golden Mountains	6.8	49	1931	129	Drama	NA	NA
+tt0022599	movie	À Nous la Liberté	7.4	4742	1931	104	Comedy	Musical	NA
+tt0022605	movie	Married by the Stork	6.5	13	1932	89	Comedy	NA	NA
+tt0022628	movie	The Animal Kingdom	6.4	1204	1932	85	Comedy	Drama	Romance
+tt0022630	short	Any Old Port!	7.3	1312	1932	20	Comedy	Short	NA
+tt0022645	movie	In the Name of the Law	6.5	114	1932	95	Crime	Drama	NA
+tt0022646	movie	The Children of the Sun	6	35	1932	47	Drama	NA	NA
+tt0022689	movie	Bird of Paradise	6	1431	1932	80	Adventure	Drama	Romance
+tt0022694	movie	The Blue Light	6.8	1319	1932	85	Drama	Fantasy	Mystery
+tt0022718	movie	Boudu Saved from Drowning	7.3	5931	1932	85	Comedy	NA	NA
+tt0022735	movie	The Cabin in the Cotton	6.7	1736	1932	78	Drama	NA	NA
+tt0022759	short	The Chimp	6.9	1437	1932	25	Comedy	Short	NA
+tt0022762	movie	Chotard and Company	5.8	126	1933	83	Comedy	NA	NA
+tt0022765	movie	Moon Over Morocco	6.2	118	1931	87	Drama	Mystery	NA
+tt0022775	movie	Frisco Jenny	6.8	1077	1932	73	Crime	Drama	Music
+tt0022782	short	County Hospital	7.3	2320	1932	19	Comedy	Music	Short
+tt0022787	movie	Wooden Crosses	7.7	1545	1932	115	Drama	War	NA
+tt0022815	movie	The Devil Is Driving	6.1	164	1932	65	Action	Comedy	Crime
+tt0022820	movie	She, or Nobody	6.9	19	1932	91	Musical	NA	NA
+tt0022835	movie	Dr. Jekyll and Mr. Hyde	7.6	14496	1931	98	Horror	Sci-Fi	NA
+tt0022851	movie	Gilgi: One of Us	7	11	1932	89	Drama	NA	NA
+tt0022854	movie	Emma	7	1025	1932	72	Drama	NA	NA
+tt0022867	movie	Ecstasy	6.6	2599	1933	82	Drama	Romance	NA
+tt0022869	movie	F.P.1 Doesn't Answer	6.1	285	1932	114	Adventure	Sci-Fi	NA
+tt0022877	movie	Fanny	7.8	1819	1932	140	Comedy	Drama	NA
+tt0022879	movie	A Farewell to Arms	6.4	6380	1932	80	Drama	Romance	War
+tt0022913	movie	Freaks	7.8	47823	1932	64	Drama	Horror	NA
+tt0022919	movie	Friederike	8	8	1932	92	Drama	NA	NA
+tt0022923	movie	Five from the Jazzband	6.9	22	1932	88	Comedy	Musical	NA
+tt0022924	movie	Fun in the Barracks	5.9	181	1932	85	Comedy	NA	NA
+tt0022932	movie	Ghost City	5.7	18	1932	60	Drama	Western	NA
+tt0022951	movie	Gold	5.2	58	1932	58	Drama	Western	NA
+tt0022958	movie	Grand Hotel	7.3	19897	1932	112	Drama	Romance	NA
+tt0022966	movie	The Countess of Monte-Christo	6.9	42	1932	98	Comedy	NA	NA
+tt0022970	movie	Nail in the Boot	7.1	269	1931	53	Drama	War	NA
+tt0022977	movie	Spring Comes from the Ladies	6.2	38	1932	74	Drama	NA	NA
+tt0022986	movie	Red Army Days	6	46	1935	90	Comedy	Romance	NA
+tt0022991	movie	Hell's House	5.8	1366	1932	72	Drama	NA	NA
+tt0022994	short	Helpmates	7.7	2443	1932	21	Comedy	Short	NA
+tt0023002	movie	Queen of Atlantis	6	577	1932	87	Fantasy	Sci-Fi	NA
+tt0023007	movie	High Pressure	6.6	607	1932	73	Comedy	NA	NA
+tt0023022	movie	Footsteps in the Night	5.7	62	1931	67	Crime	Drama	NA
+tt0023028	movie	Hot Saturday	6.6	1240	1932	73	Drama	Romance	NA
+tt0023030	movie	Hotel Continental	5.7	68	1932	67	Crime	Drama	Romance
+tt0023036	movie	Loving Blood of the Volcano	6.8	68	1932	100	Drama	NA	NA
+tt0023037	short	Las Hurdes	7.3	5977	1933	30	Documentary	Short	NA
+tt0023042	movie	I Am a Fugitive from a Chain Gang	8.2	13708	1932	92	Crime	Drama	Film-Noir
+tt0023046	movie	I by Day, You by Night	7	152	1932	98	Comedy	Musical	Romance
+tt0023048	movie	Kantor ideál	6.4	57	1932	85	Comedy	NA	NA
+tt0023070	movie	Judgment of Lake Balaton	6.7	27	1933	58	Drama	NA	NA
+tt0023074	movie	Jewel Robbery	7.2	2254	1932	68	Comedy	Crime	Romance
+tt0023088	movie	The Kid from Spain	6.5	570	1932	96	Comedy	Musical	Romance
+tt0023113	movie	Landskamp	5.5	89	1932	87	Drama	NA	NA
+tt0023119	movie	The Last of the Mohicans	5.8	158	1932	231	Drama	War	Western
+tt0023122	movie	Law of the North	4.9	40	1932	55	Drama	Western	NA
+tt0023137	movie	The Song of Night	6.6	38	1932	85	Comedy	Musical	NA
+tt0023151	movie	The Lost Squadron	6.4	788	1932	79	Drama	History	War
+tt0023157	movie	Love Is a Racket	6.2	457	1932	72	Comedy	Crime	Drama
+tt0023169	movie	Madame Butterfly	6.1	398	1932	86	Drama	Romance	NA
+tt0023191	movie	Mark of the Spur	5.6	51	1932	59	Western	NA	NA
+tt0023194	movie	The Mask of Fu Manchu	6.2	3550	1932	68	Adventure	Horror	Sci-Fi
+tt0023195	movie	Mason of the Mounted	5.2	75	1932	58	Western	NA	NA
+tt0023197	movie	Until the Day We Meet Again	6.2	44	1932	103	Drama	NA	NA
+tt0023213	movie	Merrily We Go to Hell	6.9	1684	1932	83	Comedy	Drama	Romance
+tt0023221	movie	The Midnight Warning	4.9	175	1932	63	Mystery	NA	NA
+tt0023236	movie	The Monster Walks	4.1	1009	1932	63	Horror	Mystery	NA
+tt0023238	movie	The Most Dangerous Game	7.1	12992	1932	63	Action	Adventure	Horror
+tt0023241	movie	Movie Crazy	7.1	1576	1932	84	Comedy	Family	Romance
+tt0023245	movie	The Mummy	7	28018	1932	73	Fantasy	Horror	NA
+tt0023249	movie	Murders in the Rue Morgue	6.3	4691	1932	61	Crime	Horror	Mystery
+tt0023251	short	The Music Box	7.9	7694	1932	29	Comedy	Family	Short
+tt0023261	movie	No Blood Relation	6.9	438	1932	79	Drama	NA	NA
+tt0023264	movie	Nice Women	7.1	25	1931	70	Comedy	Romance	NA
+tt0023270	movie	The Night Rider	5.4	76	1932	72	Western	NA	NA
+tt0023284	movie	Night at the Crossroads	6.5	890	1932	75	Crime	Drama	Mystery
+tt0023285	movie	Number 17	5.7	5099	1932	66	Crime	Mystery	Thriller
+tt0023293	movie	The Old Dark House	7	11582	1932	72	Adventure	Comedy	Drama
+tt0023304	movie	One Man Law	5.5	47	1931	63	Western	NA	NA
+tt0023331	movie	Song of Heroes	6.8	95	1932	50	Documentary	NA	NA
+tt0023332	movie	The Chocolate Girl	6.4	27	1932	80	Comedy	NA	NA
+tt0023369	movie	Rain	6.9	2835	1932	94	Drama	NA	NA
+tt0023374	movie	Rasputin and the Empress	6.5	1119	1932	121	Biography	Drama	History
+tt0023376	movie	Razzia in St. Pauli	7	86	1932	74	Crime	Drama	NA
+tt0023382	movie	Red Dust	7.2	4577	1932	83	Comedy	Drama	Romance
+tt0023394	movie	The Rich Are Always with Us	6.2	1121	1932	71	Comedy	Drama	Romance
+tt0023410	movie	Rome Express	6.6	530	1932	94	Adventure	Crime	Drama
+tt0023424	movie	The Savage Girl	4.3	229	1932	66	Adventure	Comedy	NA
+tt0023427	movie	Scarface	7.7	28788	1932	93	Action	Crime	Drama
+tt0023439	short	Scram!	7.3	1431	1932	20	Comedy	Short	NA
+tt0023448	movie	Secrets of the Orient	7.6	20	1928	90	Drama	NA	NA
+tt0023450	movie	Where Now Are the Dreams of Youth?	7	605	1932	92	Comedy	Drama	NA
+tt0023458	movie	Shanghai Express	7.3	9356	1932	82	Adventure	Drama	Film-Noir
+tt0023467	movie	Liebe ist Liebe	7.9	25	1932	92	Comedy	NA	NA
+tt0023470	movie	The Sign of the Cross	6.8	2477	1932	125	Drama	History	NA
+tt0023509	movie	A Tremendously Rich Man	6.5	13	1932	73	Comedy	NA	NA
+tt0023520	movie	A Strange Adventure	5.2	204	1932	60	Crime	Drama	Film-Noir
+tt0023530	movie	Spoiling the Game	6.6	14	1932	99	Comedy	NA	NA
+tt0023535	movie	The Tempest	7.5	41	1932	101	Crime	Drama	NA
+tt0023547	movie	The Southsiders	5.3	83	1932	87	Comedy	NA	NA
+tt0023551	movie	Tarzan the Ape Man	7	7778	1932	100	Action	Adventure	Romance
+tt0023563	movie	The Testament of Dr. Mabuse	7.9	12983	1933	122	Crime	Mystery	Thriller
+tt0023578	short	Their First Mistake	7.2	1521	1932	21	Comedy	Family	Short
+tt0023590	movie	Three on a Match	7.1	4065	1932	63	Crime	Drama	Romance
+tt0023612	short	Touchdown Mickey	6.7	407	1932	6	Animation	Comedy	Family
+tt0023622	movie	Trouble in Paradise	8	15222	1932	83	Comedy	Crime	Romance
+tt0023634	movie	I Was Born, But...	7.9	5799	1932	100	Comedy	Drama	NA
+tt0023640	movie	The Living Dead	6.6	124	1932	89	Comedy	Horror	Sci-Fi
+tt0023645	movie	What Scoundrels Men Are!	6.8	420	1932	64	Comedy	Romance	NA
+tt0023649	movie	Vampyr	7.4	19096	1932	75	Fantasy	Horror	NA
+tt0023655	movie	Veiled Aristocrats	5	164	1932	48	Drama	NA	NA
