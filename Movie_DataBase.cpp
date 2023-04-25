@@ -48,8 +48,8 @@ public:
 
 
 void printMovies(const vector<Movie>& movies) {
-    cout << setw(8) << left << "Movie #"
-         << setw(12) << left << "tconst"
+    cout << setw(12) << left << "Movie #"
+         << setw(15) << left << "tconst"
          << setw(12) << left << "titleType"
          << setw(40) << left << "primaryTitle"
          << setw(15) << left << "averageRating"
@@ -58,12 +58,12 @@ void printMovies(const vector<Movie>& movies) {
          << setw(15) << left << "runtimeMinutes"
          << setw(15) << left << "genre1"
          << setw(15) << left << "genre2"
-         << setw(15) << left << "genre3"
+         << setw(2) << left << "genre3"
          << endl;
 
     for (unsigned int i = 0; i < movies.size(); i++) {
-        cout << setw(8) << left << i + 1
-             << setw(12) << left << movies[i].tconst
+        cout << setw(12) << left << i + 1
+             << setw(15) << left << movies[i].tconst
              << setw(12) << left << movies[i].titleType
              << setw(40) << left << movies[i].primaryTitle
              << setw(15) << left << movies[i].averageRating
@@ -72,7 +72,7 @@ void printMovies(const vector<Movie>& movies) {
              << setw(15) << left << movies[i].runtimeMinutes
              << setw(15) << left << movies[i].genre1
              << setw(15) << left << movies[i].genre2
-             << setw(15) << left << movies[i].genre3
+             << setw(2) << left << movies[i].genre3
              << endl;
     }
 }
