@@ -4,6 +4,7 @@
 #include <vector>
 #include <sstream>
 #include <chrono>
+#include <unordered_set>
 
 using namespace std;
 
@@ -48,10 +49,10 @@ public:
 
 
 void printMovies(const vector<Movie>& movies) {
-    cout << setw(12) << left << "Movie #"
+    std::cout << setw(12) << left << "Movie #"
          << setw(15) << left << "tconst"
          << setw(12) << left << "titleType"
-         << setw(40) << left << "primaryTitle"
+         << setw(75) << left << "primaryTitle"
          << setw(15) << left << "averageRating"
          << setw(10) << left << "numVotes"
          << setw(10) << left << "startYear"
@@ -62,10 +63,10 @@ void printMovies(const vector<Movie>& movies) {
          << endl;
 
     for (unsigned int i = 0; i < movies.size(); i++) {
-        cout << setw(12) << left << i + 1
+        std::cout << setw(12) << left << i + 1
              << setw(15) << left << movies[i].tconst
              << setw(12) << left << movies[i].titleType
-             << setw(40) << left << movies[i].primaryTitle
+             << setw(75) << left << movies[i].primaryTitle
              << setw(15) << left << movies[i].averageRating
              << setw(10) << left << movies[i].numVotes
              << setw(10) << left << movies[i].startYear
@@ -182,20 +183,192 @@ int main() {
     file.close();
 
 
+    //User Menu/ Console Interface
+    int main_menu_selection = -1;
+    vector<Movie> moviesFiltered;
+    bool filter_chosen = false;
+
+
+    int year_lower_bound = -1;
+    int year_upper_bound = -1;
+    unordered_set<string> genres;
+    unordered_set<string> title_types;
+    int runtime_lower_bound = -1;
+    int runtime_upper_bound = -1;
+    int votes_lower_bound = -1;
+    int votes_upper_bound = -1;
+    float rating_lower_bound = -1;
+    float rating_upper_bound = -1;
+
+
+    while (main_menu_selection != 0) {
+        cout << "\n\nSelect Movie Filter:\n1. Year\n2. Genre\n3. Title Type\n4. Runtime\n5. Number of Votes\n6. Rating\n0. No further filters\n" << endl;
+        cin >> main_menu_selection;
+        if (main_menu_selection == 1) {
+            cout << "Enter Year Lower Bound" << endl;
+            cin >> year_lower_bound;
+            cout << "Enter Year Upper Bound" << endl; 
+            cin >> year_upper_bound;
+        }
+        else if (main_menu_selection == 2) {
+            cout << "Enter a comma separated list of genres to include:\nOptions include Comedy, Drama, Romance, Western, Biography, Adventure, Music, Mystery, Family, Animation, Film-Noir, Crime, War, Sci-Fi, Horror, Thriller, Musical\n" << endl;
+            string genre_input = "";
+            cin >> genre_input;
+            std::stringstream ss(genre_input);
+            std::string genre;
+            while (std::getline(ss, genre, ',')) {
+                // Insert each element into the unordered set
+                genres.insert(genre);
+            }
+            genre_input = "";
+        }
+        else if (main_menu_selection == 3) {
+            cout << "Enter a comma separated list of title types to include:\nOptions include Movie, Short, tvSeries\n" << endl;
+            string title_type_input = "";
+            cin >> title_type_input;
+            std::stringstream ss(title_type_input);
+            std::string title_type;
+            while (std::getline(ss, title_type, ',')) {
+                // Insert each element into the unordered set
+                title_types.insert(title_type);
+            }
+            title_type_input = "";
+        }
+        else if (main_menu_selection == 4) {
+            cout << "Enter runtime lower bound in minutes:\n" << endl;
+            cin >> runtime_lower_bound;
+            cout << "Enter Year Upper Bound" << endl; 
+            cin >> runtime_upper_bound;
+        }
+        else if (main_menu_selection == 5) {
+            cout << "Enter number of votes lower bound:\n" << endl;
+            cin >> votes_lower_bound;
+            cout << "Enter number of votes upper bound:\n" << endl;
+            cin >> votes_upper_bound;
+        }
+        else if (main_menu_selection == 6) {
+            cout << "Enter rating (0.0 - 10.0) lower bound:\n" << endl;
+            cin >> rating_lower_bound;
+            cout << "Enter rating (0.0 - 10.0) upper bound:\n" << endl;
+            cin >> rating_upper_bound;
+        }
+        if (main_menu_selection != 0) {
+            filter_chosen = true;
+        }
+    }
+    
+
+    if (filter_chosen) {
+        //applying filters to movies
+        for (int i = 0; i < movies.size(); i++) {
+            //Year constraints
+            if (year_upper_bound!=-1 and year_lower_bound != -1) {
+                if (movies[i].startYear <= year_upper_bound && movies[i].startYear >= year_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+
+            }
+            else if(year_upper_bound != -1) {
+                if (movies[i].startYear <= year_upper_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if (year_lower_bound != -1) {
+                if (movies[i].startYear >= year_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+
+            //genre constraints
+            if (!genres.empty()) {
+                if (genres.count(movies[i].genre1)==1 || genres.count(movies[i].genre2)==1 || genres.count(movies[i].genre3)==1) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+
+            //title_types constraints
+            if (!title_types.empty()) {
+                if (genres.count(movies[i].titleType)==1) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+
+            //runtime constraints
+            if (runtime_upper_bound!=-1 and runtime_lower_bound != -1) {
+                if (movies[i].runtimeMinutes <= runtime_upper_bound && movies[i].runtimeMinutes >= runtime_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if(runtime_upper_bound != -1) {
+                if (movies[i].runtimeMinutes <= runtime_upper_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if (runtime_lower_bound != -1) {
+                if (movies[i].runtimeMinutes >= runtime_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+
+            }
+
+            //votes constraints
+            if (votes_upper_bound!=-1 and votes_lower_bound != -1) {
+                if (movies[i].numVotes <= votes_upper_bound && movies[i].numVotes >= votes_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if(votes_upper_bound != -1) {
+                if (movies[i].numVotes <= votes_upper_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if (votes_lower_bound != -1) {
+                if (movies[i].numVotes >= votes_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+
+            //rating constraints
+            if (rating_upper_bound!=-1 and rating_lower_bound != -1) {
+                if (movies[i].averageRating <= rating_upper_bound && movies[i].averageRating >= rating_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if(rating_upper_bound != -1) {
+                if (movies[i].averageRating <= rating_upper_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+            else if (rating_lower_bound != -1) {
+                if (movies[i].averageRating >= rating_lower_bound) {
+                    moviesFiltered.push_back(movies[i]);
+                }
+            }
+
+        }
+
+    }
+    else {
+        moviesFiltered = movies;
+    }
+
+
+
     // start time
     auto start_time = chrono::high_resolution_clock::now();
 
     // sort movies by ascending averageRating
-    mergeSort(movies, 0, movies.size() - 1, true); 
+    mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
     auto end_time = chrono::high_resolution_clock::now();
 
     // calculate duration
     auto duration = chrono::duration_cast<chrono::microseconds>(end_time - start_time);
 
     // print movies
-    printMovies(movies);
+    printMovies(moviesFiltered);
 
 
     cout << "Time taken by merge sort: " << duration.count() << " microseconds." << endl;
+
     return 0;
 }
