@@ -46,6 +46,37 @@ public:
     }
 };
 
+
+void printMovies(const vector<Movie>& movies) {
+    cout << setw(8) << left << "Movie #"
+         << setw(12) << left << "tconst"
+         << setw(12) << left << "titleType"
+         << setw(40) << left << "primaryTitle"
+         << setw(15) << left << "averageRating"
+         << setw(10) << left << "numVotes"
+         << setw(10) << left << "startYear"
+         << setw(15) << left << "runtimeMinutes"
+         << setw(15) << left << "genre1"
+         << setw(15) << left << "genre2"
+         << setw(15) << left << "genre3"
+         << endl;
+
+    for (unsigned int i = 0; i < movies.size(); i++) {
+        cout << setw(8) << left << i + 1
+             << setw(12) << left << movies[i].tconst
+             << setw(12) << left << movies[i].titleType
+             << setw(40) << left << movies[i].primaryTitle
+             << setw(15) << left << movies[i].averageRating
+             << setw(10) << left << movies[i].numVotes
+             << setw(10) << left << movies[i].startYear
+             << setw(15) << left << movies[i].runtimeMinutes
+             << setw(15) << left << movies[i].genre1
+             << setw(15) << left << movies[i].genre2
+             << setw(15) << left << movies[i].genre3
+             << endl;
+    }
+}
+
 void merge(vector<Movie>& movies, int l, int m, int r, bool ascending) {
     int i, j, k;
     int n1 = m - l + 1;
@@ -161,20 +192,9 @@ int main() {
     auto duration = chrono::duration_cast<chrono::microseconds>(end_time - start_time);
 
     // print movies
-    for (unsigned int i = 0; i < movies.size(); i++) {
-        cout << "Movie " << i + 1 << ":" << endl;
-        cout << "tconst: " << movies[i].tconst << endl;
-        cout << "titleType: " << movies[i].titleType << endl;
-        cout << "primaryTitle: " << movies[i].primaryTitle << endl;
-        cout << "averageRating: " << movies[i].averageRating << endl;
-        cout << "numVotes: " << movies[i].numVotes << endl;
-        cout << "startYear: " << movies[i].startYear << endl;
-        cout << "runtimeMinutes: " << movies[i].runtimeMinutes << endl;
-        cout << "genre1: " << movies[i].genre1 << endl;
-        cout << "genre2: " << movies[i].genre2 << endl;
-        cout << "genre3: " << movies[i].genre3 << endl;
-        cout << endl;
-    }
+    printMovies(movies);
+
+
     cout << "Time taken by merge sort: " << duration.count() << " microseconds." << endl;
     return 0;
 }
