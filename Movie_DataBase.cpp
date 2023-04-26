@@ -48,7 +48,7 @@ public:
 };
 
 
-void printMovies(const vector<Movie>& movies, int ordering_choice, int number_of_rows) {
+void printMovies(const vector<Movie>& movies, int number_of_rows) {
     std::cout << setw(12) << left << "Movie #"
          << setw(15) << left << "tconst"
          << setw(12) << left << "titleType"
@@ -62,41 +62,22 @@ void printMovies(const vector<Movie>& movies, int ordering_choice, int number_of
          << setw(2) << left << "genre3"
          << endl;
     if (number_of_rows == -1 || number_of_rows >= movies.size()) {
-        if (ordering_choice == 1) {
-            for (int i = 0; i < movies.size(); i++) {
-                std::cout << setw(12) << left << i + 1
-                << setw(15) << left << movies[i].tconst
-                << setw(12) << left << movies[i].titleType
-                << setw(70) << left << movies[i].primaryTitle
-                << setw(15) << left << movies[i].averageRating
-                << setw(10) << left << movies[i].numVotes
-                << setw(10) << left << movies[i].startYear
-                << setw(15) << left << movies[i].runtimeMinutes
-                << setw(15) << left << movies[i].genre1
-                << setw(15) << left << movies[i].genre2
-                << setw(2) << left << movies[i].genre3
-                << endl;
-            }
-        }
-        else if (ordering_choice ==2) {
-            for (int i = movies.size()-1; i >=0; i--) {
-                std::cout << setw(12) << left << i + 1
-                << setw(15) << left << movies[i].tconst
-                << setw(12) << left << movies[i].titleType
-                << setw(70) << left << movies[i].primaryTitle
-                << setw(15) << left << movies[i].averageRating
-                << setw(10) << left << movies[i].numVotes
-                << setw(10) << left << movies[i].startYear
-                << setw(15) << left << movies[i].runtimeMinutes
-                << setw(15) << left << movies[i].genre1
-                << setw(15) << left << movies[i].genre2
-                << setw(2) << left << movies[i].genre3
-                << endl;
-            }
+        for (int i = 0; i < movies.size(); i++) {
+            std::cout << setw(12) << left << i + 1
+            << setw(15) << left << movies[i].tconst
+            << setw(12) << left << movies[i].titleType
+            << setw(70) << left << movies[i].primaryTitle
+            << setw(15) << left << movies[i].averageRating
+            << setw(10) << left << movies[i].numVotes
+            << setw(10) << left << movies[i].startYear
+            << setw(15) << left << movies[i].runtimeMinutes
+            << setw(15) << left << movies[i].genre1
+            << setw(15) << left << movies[i].genre2
+            << setw(2) << left << movies[i].genre3
+            << endl;
         }
     }
     else {
-        if (ordering_choice == 1) {
         for (int i = 0; i < number_of_rows; i++) {
             std::cout << setw(12) << left << i + 1
              << setw(15) << left << movies[i].tconst
@@ -111,23 +92,6 @@ void printMovies(const vector<Movie>& movies, int ordering_choice, int number_of
              << setw(2) << left << movies[i].genre3
              << endl;
         }
-    }
-    else if (ordering_choice ==2) {
-        for (int i = number_of_rows-1; i >=0; i--) {
-            std::cout << setw(12) << left << i + 1
-             << setw(15) << left << movies[i].tconst
-             << setw(12) << left << movies[i].titleType
-             << setw(70) << left << movies[i].primaryTitle
-             << setw(15) << left << movies[i].averageRating
-             << setw(10) << left << movies[i].numVotes
-             << setw(10) << left << movies[i].startYear
-             << setw(15) << left << movies[i].runtimeMinutes
-             << setw(15) << left << movies[i].genre1
-             << setw(15) << left << movies[i].genre2
-             << setw(2) << left << movies[i].genre3
-             << endl;
-        }
-    }
     }
 }
 
@@ -425,12 +389,21 @@ int main() {
     auto merge_start_time = chrono::high_resolution_clock::now();
     auto quick_start_time = chrono::high_resolution_clock::now();
 
-
-    mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
+    if (ordering_choice ==1) {
+        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
+    }
+    else {
+        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, false); 
+    }
+    
     auto merge_end_time = chrono::high_resolution_clock::now();
 
-
-    quickSort(moviesFiltered, 0, moviesFiltered.size()-1, true);
+    if (ordering_choice ==1) {
+        quickSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
+    }
+    else {
+        quickSort(moviesFiltered, 0, moviesFiltered.size() - 1, false); 
+    }
     auto quick_end_time = chrono::high_resolution_clock::now();
 
     // calculate duration
@@ -438,7 +411,7 @@ int main() {
     auto quick_duration = chrono::duration_cast<chrono::microseconds>(quick_end_time - quick_start_time);
 
     // print movies
-    printMovies(moviesFiltered, ordering_choice, number_of_rows);
+    printMovies(moviesFiltered, number_of_rows);
 
 
     cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
