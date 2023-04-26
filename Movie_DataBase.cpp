@@ -421,21 +421,34 @@ int main() {
         cin >> number_of_rows;
     }
     
-    // start time
-    auto start_time = chrono::high_resolution_clock::now();
 
-    // sort movies by ascending averageRating
+    auto merge_start_time = chrono::high_resolution_clock::now();
+    auto quick_start_time = chrono::high_resolution_clock::now();
+
+
     mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
-    auto end_time = chrono::high_resolution_clock::now();
+    auto merge_end_time = chrono::high_resolution_clock::now();
+
+
+    quickSort(moviesFiltered, 0, moviesFiltered.size()-1, true);
+    auto quick_end_time = chrono::high_resolution_clock::now();
 
     // calculate duration
-    auto duration = chrono::duration_cast<chrono::microseconds>(end_time - start_time);
+    auto merge_duration = chrono::duration_cast<chrono::microseconds>(merge_end_time - merge_start_time);
+    auto quick_duration = chrono::duration_cast<chrono::microseconds>(quick_end_time - quick_start_time);
 
     // print movies
     printMovies(moviesFiltered, ordering_choice, number_of_rows);
 
 
-    cout << "Time taken by merge sort: " << duration.count() << " microseconds." << endl;
+    cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
+    cout << "Time taken by quick sort: " << quick_duration.count() << " microseconds." << endl;
+    if (merge_duration.count() > quick_duration.count()) {
+        cout << "Quick Sort was faster than Merge Sort by " << (abs(quick_duration.count() - merge_duration.count()))/(quick_duration.count())*100 << "%" << endl;
+    }
+    if (merge_duration.count() < quick_duration.count()) {
+        cout << "Merge Sort was faster than Quick Sort by " << (abs(merge_duration.count() - quick_duration.count()))/(merge_duration.count())*100 << "%" << endl;
+    }
 
     return 0;
 }
