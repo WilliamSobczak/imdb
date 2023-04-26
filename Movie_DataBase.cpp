@@ -413,7 +413,7 @@ int main() {
     // print movies
     printMovies(moviesFiltered, number_of_rows);
 
-
+    cout << endl;
     cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
     cout << "Time taken by quick sort: " << quick_duration.count() << " microseconds." << endl;
     if (merge_duration.count() > quick_duration.count()) {
@@ -422,6 +422,7 @@ int main() {
     if (merge_duration.count() < quick_duration.count()) {
         cout << "Merge Sort was faster than Quick Sort by " << (abs(merge_duration.count() - quick_duration.count()))/(merge_duration.count())*100 << "%" << endl;
     }
+    cout << endl;
 
     return 0;
 }
