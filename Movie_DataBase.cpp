@@ -89,15 +89,16 @@ int main() {
     while (main_menu_selection != 0) {
         cout << "\n\nSelect Movie Filter:\n1. Year\n2. Genre\n3. Title Type\n4. Runtime\n5. Number of Votes\n6. Rating\n0. No further filters\n" << endl;
         cin >> main_menu_selection;
+
         //stores whether any filters were ever applied
         if (main_menu_selection != 0) {
             filter_chosen = true;
         }
         //Year filter
         if (main_menu_selection == 1) {
-            cout << "Enter Year Lower Bound" << endl;
+            cout << "Enter Year Lower Bound (enter -1 for no lower bound)" << endl;
             cin >> year_lower_bound;
-            cout << "Enter Year Upper Bound" << endl; 
+            cout << "Enter Year Upper Bound (enter -1 for no upper bound)" << endl; 
             cin >> year_upper_bound;
         }
         //Genre filter
@@ -115,7 +116,7 @@ int main() {
         }
         //title type filter
         else if (main_menu_selection == 3) {
-            cout << "Enter a comma separated list of title types to include:\nOptions include Movie, Short, tvSeries\n" << endl;
+            cout << "Enter a comma separated list of title types to include:\nOptions include movie, short, tvSeries\n" << endl;
             string title_type_input = "";
             cin >> title_type_input;
             std::stringstream ss(title_type_input);
@@ -128,122 +129,138 @@ int main() {
         }
         //runtime filter
         else if (main_menu_selection == 4) {
-            cout << "Enter runtime lower bound in minutes:\n" << endl;
+            cout << "Enter runtime lower bound in minutes: (enter -1 for no lower bound)\n" << endl;
             cin >> runtime_lower_bound;
-            cout << "Enter Year Upper Bound" << endl; 
+            cout << "Enter Year Upper Bound (enter -1 for no upper bound)" << endl; 
             cin >> runtime_upper_bound;
         }
         //number of votes filter
         else if (main_menu_selection == 5) {
-            cout << "Enter number of votes lower bound:\n" << endl;
+            cout << "Enter number of votes lower bound: (enter -1 for no lower bound)\n" << endl;
             cin >> votes_lower_bound;
-            cout << "Enter number of votes upper bound:\n" << endl;
+            cout << "Enter number of votes upper bound: (enter -1 for no upper bound)\n" << endl;
             cin >> votes_upper_bound;
         }
         //rating filter
         else if (main_menu_selection == 6) {
-            cout << "Enter rating (0.0 - 10.0) lower bound:\n" << endl;
+            cout << "Enter rating (0.0 - 10.0) lower bound: (enter -1 for no lower bound)\n" << endl;
             cin >> rating_lower_bound;
-            cout << "Enter rating (0.0 - 10.0) upper bound:\n" << endl;
+            cout << "Enter rating (0.0 - 10.0) upper bound: (enter -1 for no upper bound)\n" << endl;
             cin >> rating_upper_bound;
         }
     }
     
-
+    
+    
     if (filter_chosen) {
-        //applying filters to movies
-        for (int i = 0; i < movies.size(); i++) {
-            //Year constraints
-            if (year_upper_bound!=-1 and year_lower_bound != -1) {
-                if (movies[i].startYear <= year_upper_bound && movies[i].startYear >= year_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
-                }
+        int length_of_movies = movies.size();
 
+        //applying filters to movies
+        for (int i = length_of_movies-1; i >= 0; i--) {
+            //Year constraints
+            if (year_upper_bound!=-1 && year_lower_bound != -1) {
+                if (movies[i].startYear > year_upper_bound || movies[i].startYear < year_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
+                }
             }
             else if(year_upper_bound != -1) {
-                if (movies[i].startYear <= year_upper_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].startYear > year_upper_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
+                    
                 }
             }
             else if (year_lower_bound != -1) {
-                if (movies[i].startYear >= year_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].startYear < year_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
+                    
                 }
             }
 
             //genre constraints
             if (!genres.empty()) {
-                if (genres.count(movies[i].genre1)==1 || genres.count(movies[i].genre2)==1 || genres.count(movies[i].genre3)==1) {
-                    moviesFiltered.push_back(movies[i]);
+                if (genres.count(movies[i].genre1)==0 && genres.count(movies[i].genre2)==0 && genres.count(movies[i].genre3)==0) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
 
             //title_types constraints
             if (!title_types.empty()) {
-                if (genres.count(movies[i].titleType)==1) {
-                    moviesFiltered.push_back(movies[i]);
+                if (title_types.count(movies[i].titleType)==0) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
 
             //runtime constraints
             if (runtime_upper_bound!=-1 and runtime_lower_bound != -1) {
-                if (movies[i].runtimeMinutes <= runtime_upper_bound && movies[i].runtimeMinutes >= runtime_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].runtimeMinutes > runtime_upper_bound || movies[i].runtimeMinutes < runtime_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if(runtime_upper_bound != -1) {
-                if (movies[i].runtimeMinutes <= runtime_upper_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].runtimeMinutes > runtime_upper_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if (runtime_lower_bound != -1) {
-                if (movies[i].runtimeMinutes >= runtime_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].runtimeMinutes < runtime_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
 
             }
 
             //votes constraints
-            if (votes_upper_bound!=-1 and votes_lower_bound != -1) {
-                if (movies[i].numVotes <= votes_upper_bound && movies[i].numVotes >= votes_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+            if (votes_upper_bound!=-1 && votes_lower_bound != -1) {
+                if (movies[i].numVotes > votes_upper_bound || movies[i].numVotes < votes_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if(votes_upper_bound != -1) {
-                if (movies[i].numVotes <= votes_upper_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].numVotes > votes_upper_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if (votes_lower_bound != -1) {
-                if (movies[i].numVotes >= votes_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].numVotes < votes_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
 
             //rating constraints
-            if (rating_upper_bound!=-1 and rating_lower_bound != -1) {
-                if (movies[i].averageRating <= rating_upper_bound && movies[i].averageRating >= rating_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+            if (rating_upper_bound!=-1 && rating_lower_bound != -1) {
+                if (movies[i].averageRating > rating_upper_bound || movies[i].averageRating < rating_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if(rating_upper_bound != -1) {
-                if (movies[i].averageRating <= rating_upper_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].averageRating > rating_upper_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
             else if (rating_lower_bound != -1) {
-                if (movies[i].averageRating >= rating_lower_bound) {
-                    moviesFiltered.push_back(movies[i]);
+                if (movies[i].averageRating < rating_lower_bound) {
+                    movies.erase(movies.begin() + i);
+                    continue;
                 }
             }
 
         }
 
     }
-    //if no filters were applied, the original vector is what is used
-    else {
-        moviesFiltered = movies;
-    }
+
+    moviesFiltered = movies;
 
     //set the vector used for quicksort the same as the one used for mergesort
     moviesFilteredQuick = moviesFiltered;
