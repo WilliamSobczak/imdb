@@ -235,7 +235,7 @@ void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sor
 int main() {
     vector<Movie> movies;
     long totalRuntime = 0;
-    ifstream file("Text.txt");
+    ifstream file("IMDB_Data.txt");
     string line;
     getline(file, line); // skip first line (header)
     while (getline(file, line)) {
