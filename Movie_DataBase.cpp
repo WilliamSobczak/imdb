@@ -8,26 +8,36 @@
 #include "Movie.h"
 using namespace std;
 
+//prints out movies and associated information in tabular (rowwise) format
 void printMovies(const vector<Movie>& movies, int number_of_rows);
 
+//merge for sorting by average ratings
 void mergeRatings(vector<Movie>& movies, int l, int m, int r, bool ascending);
 
+//merge for sorting by number of votes
 void mergeVotes(vector<Movie>& movies, int l, int m, int r, bool ascending);
 
+//merge sort for either 
 void mergeSort(vector<Movie>& movies, int l, int r, bool ascending, int sorting_parameter);
 
+//partition for sorting by average ratings
 int partitionRatings(vector<Movie>& movies, int low, int high, bool ascending);
 
+//partion for sorting by number of votes
 int partitionVotes(vector<Movie>& movies, int low, int high, bool ascending);
 
+//quicksort for both
 void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sorting_parameter);
 
 int main() {
+    //vector for storing all movie objects
     vector<Movie> movies;
     long totalRuntime = 0;
+    //data source
     ifstream file("IMDB_Data.txt");
     string line;
     getline(file, line); // skip first line (header)
+    //read in all data, creating movie object for each row of data, filling in object variables
     while (getline(file, line)) {
         string tconst, titleType, primaryTitle, averageRatingStr, numVotesStr, startYearStr, runtimeMinutesStr, genre1, genre2, genre3;
         float averageRating;
@@ -51,12 +61,13 @@ int main() {
         getline(ss, genre1, '\t');
         getline(ss, genre2, '\t');
         getline(ss, genre3, '\t');
+        //adding movie to vector of movies
         movies.push_back(Movie(tconst, titleType, primaryTitle, averageRating, numVotes, startYear, runtimeMinutes, genre1, genre2, genre3));
     }
     file.close();
 
 
-    //User Menu/ Console Interface
+    //User Menu / Console Interface
     int main_menu_selection = -1;
     vector<Movie> moviesFiltered;
     vector<Movie> moviesFilteredQuick;
@@ -78,51 +89,58 @@ int main() {
     while (main_menu_selection != 0) {
         cout << "\n\nSelect Movie Filter:\n1. Year\n2. Genre\n3. Title Type\n4. Runtime\n5. Number of Votes\n6. Rating\n0. No further filters\n" << endl;
         cin >> main_menu_selection;
+        //stores whether any filters were ever applied
         if (main_menu_selection != 0) {
             filter_chosen = true;
         }
+        //Year filter
         if (main_menu_selection == 1) {
             cout << "Enter Year Lower Bound" << endl;
             cin >> year_lower_bound;
             cout << "Enter Year Upper Bound" << endl; 
             cin >> year_upper_bound;
         }
+        //Genre filter
         else if (main_menu_selection == 2) {
             cout << "Enter a comma separated list of genres to include:\nOptions include Comedy, Drama, Romance, Western, Biography, Adventure, Music, Mystery, Family, Animation, Film-Noir, Crime, War, Sci-Fi, Horror, Thriller, Musical\n" << endl;
             string genre_input = "";
             cin >> genre_input;
             std::stringstream ss(genre_input);
             std::string genre;
+            //converting string input into set entries
             while (std::getline(ss, genre, ',')) {
-                // Insert each element into the unordered set
                 genres.insert(genre);
             }
             genre_input = "";
         }
+        //title type filter
         else if (main_menu_selection == 3) {
             cout << "Enter a comma separated list of title types to include:\nOptions include Movie, Short, tvSeries\n" << endl;
             string title_type_input = "";
             cin >> title_type_input;
             std::stringstream ss(title_type_input);
             std::string title_type;
+            //inserting into set
             while (std::getline(ss, title_type, ',')) {
-                // Insert each element into the unordered set
                 title_types.insert(title_type);
             }
             title_type_input = "";
         }
+        //runtime filter
         else if (main_menu_selection == 4) {
             cout << "Enter runtime lower bound in minutes:\n" << endl;
             cin >> runtime_lower_bound;
             cout << "Enter Year Upper Bound" << endl; 
             cin >> runtime_upper_bound;
         }
+        //number of votes filter
         else if (main_menu_selection == 5) {
             cout << "Enter number of votes lower bound:\n" << endl;
             cin >> votes_lower_bound;
             cout << "Enter number of votes upper bound:\n" << endl;
             cin >> votes_upper_bound;
         }
+        //rating filter
         else if (main_menu_selection == 6) {
             cout << "Enter rating (0.0 - 10.0) lower bound:\n" << endl;
             cin >> rating_lower_bound;
@@ -222,10 +240,12 @@ int main() {
         }
 
     }
+    //if no filters were applied, the original vector is what is used
     else {
         moviesFiltered = movies;
     }
 
+    //set the vector used for quicksort the same as the one used for mergesort
     moviesFilteredQuick = moviesFiltered;
 
     // "Ascending/decending/limit selections"
@@ -247,10 +267,10 @@ int main() {
         cin >> number_of_rows;
     }
     
-    //merge sort
+    //merge sort timer start
     auto merge_start_time = chrono::high_resolution_clock::now();
 
-
+    //the boolean denotes whether sorting is ascending or descending order, which is reflected in the merge function
     if (ordering_choice ==1) {
         mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true, sorting_parameter); 
     }
@@ -260,32 +280,36 @@ int main() {
     
     auto merge_end_time = chrono::high_resolution_clock::now();
 
-    //quick sort
+    //quick sort timer start
     auto quick_start_time = chrono::high_resolution_clock::now();
 
-    
+    //the boolean denotes whether sorting is ascending or descending order, which is reflected in the partition function
     if (ordering_choice ==1) {
         quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, true, sorting_parameter); 
     }
     else {
         quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, false, sorting_parameter); 
     }
+    //quicksort end timer
     auto quick_end_time = chrono::high_resolution_clock::now();
 
-    // calculate duration
+    // calculate duration for each
     auto merge_duration = chrono::duration_cast<chrono::microseconds>(merge_end_time - merge_start_time);
     auto quick_duration = chrono::duration_cast<chrono::microseconds>(quick_end_time - quick_start_time);
 
-    // print movies merge
+    // print movies using mergesort sorted vector
     printMovies(moviesFiltered, number_of_rows);
 
     cout << endl;
-    //print movies quick (same as merge output)
+    //print movies using quicksort sorted vector (varies slightly for equal values due to different implementations)
     //printMovies(moviesFilteredQuick, number_of_rows);
 
     cout << endl;
+    //output time it took for each sorting algorithm to process the data desired by user
     cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
     cout << "Time taken by quick sort: " << quick_duration.count() << " microseconds." << endl;
+
+    //displays which sorting algorithm was faster and by how much in terms of percent change
     if (merge_duration.count() > quick_duration.count()) {
         cout << "Quick Sort was faster than Merge Sort by " << (abs(quick_duration.count() - merge_duration.count()))/(float)(quick_duration.count())*100 << "%" << endl;
     }
