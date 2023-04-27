@@ -5,232 +5,22 @@
 #include <sstream>
 #include <chrono>
 #include <unordered_set>
-
+#include "Movie.h"
 using namespace std;
 
-class Movie {
-public:
-    string tconst;
-    string titleType;
-    string primaryTitle;
-    float averageRating;
-    int numVotes;
-    int startYear;
-    int runtimeMinutes;
-    string genre1;
-    string genre2;
-    string genre3;
+void printMovies(const vector<Movie>& movies, int number_of_rows);
 
-    Movie(string tconst, string titleType, string primaryTitle, float averageRating = -1, int numVotes = -1, int startYear = -1, int runtimeMinutes = -1, string genre1 = "NA", string genre2 = "NA", string genre3 = "NA") {
-        this->tconst = tconst;
-        this->titleType = titleType;
-        this->primaryTitle = primaryTitle;
-        this->averageRating = averageRating;
-        this->numVotes = numVotes;
-        this->startYear = startYear;
-        this->runtimeMinutes = runtimeMinutes;
-        this->genre1 = genre1;
-        this->genre2 = genre2;
-        this->genre3 = genre3;
-    }
-    Movie() {
-        tconst = "";
-        titleType = "";
-        primaryTitle = "";
-        averageRating = -1;
-        numVotes = -1;
-        startYear = -1;
-        runtimeMinutes = -1;
-        genre1 = "NA";
-        genre2 = "NA";
-        genre3 = "NA";
-    }
-};
+void mergeRatings(vector<Movie>& movies, int l, int m, int r, bool ascending);
 
+void mergeVotes(vector<Movie>& movies, int l, int m, int r, bool ascending);
 
-void printMovies(const vector<Movie>& movies, int number_of_rows) {
-    std::cout << setw(12) << left << "Movie #"
-         << setw(15) << left << "tconst"
-         << setw(12) << left << "titleType"
-         << setw(70) << left << "primaryTitle"
-         << setw(15) << left << "averageRating"
-         << setw(10) << left << "numVotes"
-         << setw(10) << left << "startYear"
-         << setw(15) << left << "runtimeMinutes"
-         << setw(15) << left << "genre1"
-         << setw(15) << left << "genre2"
-         << setw(2) << left << "genre3"
-         << endl;
-    if (number_of_rows == -1 || number_of_rows >= movies.size()) {
-        for (int i = 0; i < movies.size(); i++) {
-            std::cout << setw(12) << left << i + 1
-            << setw(15) << left << movies[i].tconst
-            << setw(12) << left << movies[i].titleType
-            << setw(70) << left << movies[i].primaryTitle
-            << setw(15) << left << movies[i].averageRating
-            << setw(10) << left << movies[i].numVotes
-            << setw(10) << left << movies[i].startYear
-            << setw(15) << left << movies[i].runtimeMinutes
-            << setw(15) << left << movies[i].genre1
-            << setw(15) << left << movies[i].genre2
-            << setw(2) << left << movies[i].genre3
-            << endl;
-        }
-    }
-    else {
-        for (int i = 0; i < number_of_rows; i++) {
-            std::cout << setw(12) << left << i + 1
-             << setw(15) << left << movies[i].tconst
-             << setw(12) << left << movies[i].titleType
-             << setw(70) << left << movies[i].primaryTitle
-             << setw(15) << left << movies[i].averageRating
-             << setw(10) << left << movies[i].numVotes
-             << setw(10) << left << movies[i].startYear
-             << setw(15) << left << movies[i].runtimeMinutes
-             << setw(15) << left << movies[i].genre1
-             << setw(15) << left << movies[i].genre2
-             << setw(2) << left << movies[i].genre3
-             << endl;
-        }
-    }
-}
+void mergeSort(vector<Movie>& movies, int l, int r, bool ascending, int sorting_parameter);
 
-void mergeRatings(vector<Movie>& movies, int l, int m, int r, bool ascending) {
-    int i, j, k;
-    int n1 = m - l + 1;
-    int n2 = r - m;
+int partitionRatings(vector<Movie>& movies, int low, int high, bool ascending);
 
-    vector<Movie> L(n1);
-    vector<Movie> R(n2);
+int partitionVotes(vector<Movie>& movies, int low, int high, bool ascending);
 
-    for (i = 0; i < n1; i++)
-        L[i] = movies[l + i];
-    for (j = 0; j < n2; j++)
-        R[j] = movies[m + 1 + j];
-
-    i = 0;
-    j = 0;
-    k = l;
-    while (i < n1 && j < n2) {
-        if ((ascending && L[i].averageRating <= R[j].averageRating) || (!ascending && L[i].averageRating >= R[j].averageRating)) {
-            movies[k] = L[i];
-            i++;
-        }
-        else {
-            movies[k] = R[j];
-            j++;
-        }
-        k++;
-    }
-
-    while (i < n1) {
-        movies[k] = L[i];
-        i++;
-        k++;
-    }
-
-    while (j < n2) {
-        movies[k] = R[j];
-        j++;
-        k++;
-    }
-}
-
-void mergeVotes(vector<Movie>& movies, int l, int m, int r, bool ascending) {
-    int i, j, k;
-    int n1 = m - l + 1;
-    int n2 = r - m;
-
-    vector<Movie> L(n1);
-    vector<Movie> R(n2);
-
-    for (i = 0; i < n1; i++)
-        L[i] = movies[l + i];
-    for (j = 0; j < n2; j++)
-        R[j] = movies[m + 1 + j];
-
-    i = 0;
-    j = 0;
-    k = l;
-    while (i < n1 && j < n2) {
-        if ((ascending && L[i].numVotes <= R[j].numVotes) || (!ascending && L[i].numVotes >= R[j].numVotes)) {
-            movies[k] = L[i];
-            i++;
-        }
-        else {
-            movies[k] = R[j];
-            j++;
-        }
-        k++;
-    }
-
-    while (i < n1) {
-        movies[k] = L[i];
-        i++;
-        k++;
-    }
-
-    while (j < n2) {
-        movies[k] = R[j];
-        j++;
-        k++;
-    }
-}
-
-void mergeSort(vector<Movie>& movies, int l, int r, bool ascending, int sorting_parameter) {
-    if (l < r) {
-        int m = l + (r - l) / 2;
-        mergeSort(movies, l, m, ascending, sorting_parameter);
-        mergeSort(movies, m + 1, r, ascending, sorting_parameter);
-        if (sorting_parameter == 1) {
-            mergeRatings(movies, l, m, r, ascending);
-        }
-        else {
-            mergeVotes(movies, l, m, r, ascending);
-        }
-        
-    }
-}
-
-int partitionRatings(vector<Movie>& movies, int low, int high, bool ascending) {
-    float pivot = movies[high].averageRating;
-    int i = low - 1;
-    for (int j = low; j < high; j++) {
-        if ((ascending && movies[j].averageRating <= pivot) || (!ascending && movies[j].averageRating >= pivot)) {
-            i++;
-            swap(movies[i], movies[j]);
-        }
-    }
-    swap(movies[i + 1], movies[high]);
-    return i + 1;
-}
-
-int partitionVotes(vector<Movie>& movies, int low, int high, bool ascending) {
-    int pivot = movies[high].numVotes;
-    int i = low - 1;
-    for (int j = low; j < high; j++) {
-        if ((ascending && movies[j].numVotes <= pivot) || (!ascending && movies[j].numVotes >= pivot)) {
-            i++;
-            swap(movies[i], movies[j]);
-        }
-    }
-    swap(movies[i + 1], movies[high]);
-    return i + 1;
-}
-
-void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sorting_parameter) {
-    if (low < high) {
-        int pivot = 0;
-        if (sorting_parameter == 1) {
-            pivot = partitionRatings(movies, low, high, ascending);
-        }
-        else {
-            pivot = partitionVotes(movies, low, high, ascending);
-        }
-        quickSort(movies, low, pivot - 1, ascending, sorting_parameter);
-        quickSort(movies, pivot + 1, high, ascending, sorting_parameter);
-    }
-}
+void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sorting_parameter);
 
 int main() {
     vector<Movie> movies;
@@ -505,4 +295,190 @@ int main() {
     cout << endl;
 
     return 0;
+}
+
+
+
+void printMovies(const vector<Movie>& movies, int number_of_rows) {
+    std::cout << setw(12) << left << "Movie #"
+         << setw(15) << left << "tconst"
+         << setw(12) << left << "titleType"
+         << setw(70) << left << "primaryTitle"
+         << setw(15) << left << "averageRating"
+         << setw(10) << left << "numVotes"
+         << setw(10) << left << "startYear"
+         << setw(15) << left << "runtimeMinutes"
+         << setw(15) << left << "genre1"
+         << setw(15) << left << "genre2"
+         << setw(2) << left << "genre3"
+         << endl;
+    if (number_of_rows == -1 || number_of_rows >= movies.size()) {
+        for (int i = 0; i < movies.size(); i++) {
+            std::cout << setw(12) << left << i + 1
+            << setw(15) << left << movies[i].tconst
+            << setw(12) << left << movies[i].titleType
+            << setw(70) << left << movies[i].primaryTitle
+            << setw(15) << left << movies[i].averageRating
+            << setw(10) << left << movies[i].numVotes
+            << setw(10) << left << movies[i].startYear
+            << setw(15) << left << movies[i].runtimeMinutes
+            << setw(15) << left << movies[i].genre1
+            << setw(15) << left << movies[i].genre2
+            << setw(2) << left << movies[i].genre3
+            << endl;
+        }
+    }
+    else {
+        for (int i = 0; i < number_of_rows; i++) {
+            std::cout << setw(12) << left << i + 1
+             << setw(15) << left << movies[i].tconst
+             << setw(12) << left << movies[i].titleType
+             << setw(70) << left << movies[i].primaryTitle
+             << setw(15) << left << movies[i].averageRating
+             << setw(10) << left << movies[i].numVotes
+             << setw(10) << left << movies[i].startYear
+             << setw(15) << left << movies[i].runtimeMinutes
+             << setw(15) << left << movies[i].genre1
+             << setw(15) << left << movies[i].genre2
+             << setw(2) << left << movies[i].genre3
+             << endl;
+        }
+    }
+}
+
+void mergeRatings(vector<Movie>& movies, int l, int m, int r, bool ascending) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    vector<Movie> L(n1);
+    vector<Movie> R(n2);
+
+    for (i = 0; i < n1; i++)
+        L[i] = movies[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = movies[m + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = l;
+    while (i < n1 && j < n2) {
+        if ((ascending && L[i].averageRating <= R[j].averageRating) || (!ascending && L[i].averageRating >= R[j].averageRating)) {
+            movies[k] = L[i];
+            i++;
+        }
+        else {
+            movies[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        movies[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        movies[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeVotes(vector<Movie>& movies, int l, int m, int r, bool ascending) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    vector<Movie> L(n1);
+    vector<Movie> R(n2);
+
+    for (i = 0; i < n1; i++)
+        L[i] = movies[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = movies[m + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = l;
+    while (i < n1 && j < n2) {
+        if ((ascending && L[i].numVotes <= R[j].numVotes) || (!ascending && L[i].numVotes >= R[j].numVotes)) {
+            movies[k] = L[i];
+            i++;
+        }
+        else {
+            movies[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        movies[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        movies[k] = R[j];
+        j++;
+        k++;
+    }
+}
+
+void mergeSort(vector<Movie>& movies, int l, int r, bool ascending, int sorting_parameter) {
+    if (l < r) {
+        int m = l + (r - l) / 2;
+        mergeSort(movies, l, m, ascending, sorting_parameter);
+        mergeSort(movies, m + 1, r, ascending, sorting_parameter);
+        if (sorting_parameter == 1) {
+            mergeRatings(movies, l, m, r, ascending);
+        }
+        else {
+            mergeVotes(movies, l, m, r, ascending);
+        }
+        
+    }
+}
+
+int partitionRatings(vector<Movie>& movies, int low, int high, bool ascending) {
+    float pivot = movies[high].averageRating;
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if ((ascending && movies[j].averageRating <= pivot) || (!ascending && movies[j].averageRating >= pivot)) {
+            i++;
+            swap(movies[i], movies[j]);
+        }
+    }
+    swap(movies[i + 1], movies[high]);
+    return i + 1;
+}
+
+int partitionVotes(vector<Movie>& movies, int low, int high, bool ascending) {
+    int pivot = movies[high].numVotes;
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if ((ascending && movies[j].numVotes <= pivot) || (!ascending && movies[j].numVotes >= pivot)) {
+            i++;
+            swap(movies[i], movies[j]);
+        }
+    }
+    swap(movies[i + 1], movies[high]);
+    return i + 1;
+}
+
+void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sorting_parameter)  {
+    if (low < high) {
+        int pivot = 0;
+        if (sorting_parameter == 1) {
+            pivot = partitionRatings(movies, low, high, ascending);
+        }
+        else {
+            pivot = partitionVotes(movies, low, high, ascending);
+        }
+        quickSort(movies, low, pivot - 1, ascending, sorting_parameter);
+        quickSort(movies, pivot + 1, high, ascending, sorting_parameter);
+    }
 }
