@@ -203,6 +203,7 @@ int main() {
     //User Menu/ Console Interface
     int main_menu_selection = -1;
     vector<Movie> moviesFiltered;
+    vector<Movie> moviesFilteredQuick;
     bool filter_chosen = false;
 
 
@@ -369,6 +370,7 @@ int main() {
         moviesFiltered = movies;
     }
 
+    moviesFilteredQuick = moviesFiltered;
 
     // "Ascending/decending/limit selections"
     int ordering_choice = 1;
@@ -385,9 +387,9 @@ int main() {
         cin >> number_of_rows;
     }
     
-
+    //merge sort
     auto merge_start_time = chrono::high_resolution_clock::now();
-    auto quick_start_time = chrono::high_resolution_clock::now();
+
 
     if (ordering_choice ==1) {
         mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
@@ -398,11 +400,15 @@ int main() {
     
     auto merge_end_time = chrono::high_resolution_clock::now();
 
+    //quick sort
+    auto quick_start_time = chrono::high_resolution_clock::now();
+
+    
     if (ordering_choice ==1) {
-        quickSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
+        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, true); 
     }
     else {
-        quickSort(moviesFiltered, 0, moviesFiltered.size() - 1, false); 
+        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, false); 
     }
     auto quick_end_time = chrono::high_resolution_clock::now();
 
@@ -410,8 +416,12 @@ int main() {
     auto merge_duration = chrono::duration_cast<chrono::microseconds>(merge_end_time - merge_start_time);
     auto quick_duration = chrono::duration_cast<chrono::microseconds>(quick_end_time - quick_start_time);
 
-    // print movies
+    // print movies merge
     printMovies(moviesFiltered, number_of_rows);
+
+    cout << endl;
+    //print movies quick (same as merge output)
+    //printMovies(moviesFilteredQuick, number_of_rows);
 
     cout << endl;
     cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
