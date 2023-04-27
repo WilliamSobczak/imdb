@@ -95,7 +95,7 @@ void printMovies(const vector<Movie>& movies, int number_of_rows) {
     }
 }
 
-void merge(vector<Movie>& movies, int l, int m, int r, bool ascending) {
+void mergeRatings(vector<Movie>& movies, int l, int m, int r, bool ascending) {
     int i, j, k;
     int n1 = m - l + 1;
     int n2 = r - m;
@@ -136,16 +136,63 @@ void merge(vector<Movie>& movies, int l, int m, int r, bool ascending) {
     }
 }
 
-void mergeSort(vector<Movie>& movies, int l, int r, bool ascending) {
-    if (l < r) {
-        int m = l + (r - l) / 2;
-        mergeSort(movies, l, m, ascending);
-        mergeSort(movies, m + 1, r, ascending);
-        merge(movies, l, m, r, ascending);
+void mergeVotes(vector<Movie>& movies, int l, int m, int r, bool ascending) {
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+    vector<Movie> L(n1);
+    vector<Movie> R(n2);
+
+    for (i = 0; i < n1; i++)
+        L[i] = movies[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = movies[m + 1 + j];
+
+    i = 0;
+    j = 0;
+    k = l;
+    while (i < n1 && j < n2) {
+        if ((ascending && L[i].numVotes <= R[j].numVotes) || (!ascending && L[i].numVotes >= R[j].numVotes)) {
+            movies[k] = L[i];
+            i++;
+        }
+        else {
+            movies[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        movies[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        movies[k] = R[j];
+        j++;
+        k++;
     }
 }
 
-int partition(vector<Movie>& movies, int low, int high, bool ascending) {
+void mergeSort(vector<Movie>& movies, int l, int r, bool ascending, int sorting_parameter) {
+    if (l < r) {
+        int m = l + (r - l) / 2;
+        mergeSort(movies, l, m, ascending, sorting_parameter);
+        mergeSort(movies, m + 1, r, ascending, sorting_parameter);
+        if (sorting_parameter == 1) {
+            mergeRatings(movies, l, m, r, ascending);
+        }
+        else {
+            mergeVotes(movies, l, m, r, ascending);
+        }
+        
+    }
+}
+
+int partitionRatings(vector<Movie>& movies, int low, int high, bool ascending) {
     float pivot = movies[high].averageRating;
     int i = low - 1;
     for (int j = low; j < high; j++) {
@@ -158,11 +205,30 @@ int partition(vector<Movie>& movies, int low, int high, bool ascending) {
     return i + 1;
 }
 
-void quickSort(vector<Movie>& movies, int low, int high, bool ascending) {
+int partitionVotes(vector<Movie>& movies, int low, int high, bool ascending) {
+    int pivot = movies[high].numVotes;
+    int i = low - 1;
+    for (int j = low; j < high; j++) {
+        if ((ascending && movies[j].numVotes <= pivot) || (!ascending && movies[j].numVotes >= pivot)) {
+            i++;
+            swap(movies[i], movies[j]);
+        }
+    }
+    swap(movies[i + 1], movies[high]);
+    return i + 1;
+}
+
+void quickSort(vector<Movie>& movies, int low, int high, bool ascending, int sorting_parameter) {
     if (low < high) {
-        int pivot = partition(movies, low, high, ascending);
-        quickSort(movies, low, pivot - 1, ascending);
-        quickSort(movies, pivot + 1, high, ascending);
+        int pivot = 0;
+        if (sorting_parameter == 1) {
+            pivot = partitionRatings(movies, low, high, ascending);
+        }
+        else {
+            pivot = partitionVotes(movies, low, high, ascending);
+        }
+        quickSort(movies, low, pivot - 1, ascending, sorting_parameter);
+        quickSort(movies, pivot + 1, high, ascending, sorting_parameter);
     }
 }
 
@@ -376,8 +442,12 @@ int main() {
     int ordering_choice = 1;
     int limit_choice = 1;
     int number_of_rows = -1;
+    int sorting_parameter = 1;
 
-    cout << "Show results by (1) ratings ascending or (2) ratings descending?" << endl;
+    cout << "Sort by (1) average rating or (2) number of votes?" << endl;
+    cin >> sorting_parameter;
+
+    cout << "Order (1) ascending or (2) descending?" << endl;
     cin >> ordering_choice;
 
     cout << "Limit Number Rows of Output?\n1. Show all\n2. Specify number" << endl;
@@ -392,10 +462,10 @@ int main() {
 
 
     if (ordering_choice ==1) {
-        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true); 
+        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, true, sorting_parameter); 
     }
     else {
-        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, false); 
+        mergeSort(moviesFiltered, 0, moviesFiltered.size() - 1, false, sorting_parameter); 
     }
     
     auto merge_end_time = chrono::high_resolution_clock::now();
@@ -405,10 +475,10 @@ int main() {
 
     
     if (ordering_choice ==1) {
-        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, true); 
+        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, true, sorting_parameter); 
     }
     else {
-        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, false); 
+        quickSort(moviesFilteredQuick, 0, moviesFilteredQuick.size() - 1, false, sorting_parameter); 
     }
     auto quick_end_time = chrono::high_resolution_clock::now();
 
@@ -427,10 +497,10 @@ int main() {
     cout << "Time taken by merge sort: " << merge_duration.count() << " microseconds." << endl;
     cout << "Time taken by quick sort: " << quick_duration.count() << " microseconds." << endl;
     if (merge_duration.count() > quick_duration.count()) {
-        cout << "Quick Sort was faster than Merge Sort by " << (abs(quick_duration.count() - merge_duration.count()))/(quick_duration.count())*100 << "%" << endl;
+        cout << "Quick Sort was faster than Merge Sort by " << (abs(quick_duration.count() - merge_duration.count()))/(float)(quick_duration.count())*100 << "%" << endl;
     }
     if (merge_duration.count() < quick_duration.count()) {
-        cout << "Merge Sort was faster than Quick Sort by " << (abs(merge_duration.count() - quick_duration.count()))/(merge_duration.count())*100 << "%" << endl;
+        cout << "Merge Sort was faster than Quick Sort by " << (abs(merge_duration.count() - quick_duration.count()))/(float)(merge_duration.count())*100 << "%" << endl;
     }
     cout << endl;
 
